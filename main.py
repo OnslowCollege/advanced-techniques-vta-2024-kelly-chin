@@ -1,8 +1,8 @@
 """
-Main.
+Trivia Quiz game || Project Management.
 
-Created by: NAME
-Date: DATE
+Created by: Kelly
+Date: 6/06/2024
 """
 
 # Enter your code here
