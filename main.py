@@ -5,9 +5,7 @@ Created by: Kelly
 Date: 6/06/2024
 """
 
-# Enter your code here
-name: str = input("Enter your name: ")
-if name:
-    print(f"Hello, {name}!")
-else:
-    print("Error getting name.")
+print(""Trivia Quiz Game
+    1. Play game
+    2. Visit shop
+    3. How to play instructions"")
