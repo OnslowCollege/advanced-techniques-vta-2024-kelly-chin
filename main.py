@@ -23,7 +23,17 @@ elif user_choice == 2:
     pass
 
 elif user_choice == 3:
-    pass
+    print("""How to Play instructions: 
+
+Objective of game: Collect as many diamonds💎 as you can.
+
+Depending on the level difficulty you choose from easy, medium, and hard, 
+you will earn a random amount of diamonds per correct question. 
+Every answer you answer correct, If answering the next question correctly, 
+you will receive an uncertain reward, getting this question wrong, you will not
+receive your reward AND lose diamonds. Diamonds can be spent for goodies at the
+shop.
+Good Luck and have fun!   :)""")
 
 # Game program ends. 
 elif user_choice == 4:
