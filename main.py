@@ -20,9 +20,9 @@ def how_to_play() -> str:
     """How to play instructions."""
 
     return ("""
-    ❓ How to Play instructions: 
+    How to Play instructions: ❓ 
 
-    Objective of game: Collect as many diamonds 💎 as you can.
+    » Objective of game: Collect as many diamonds 💎 as you can. «
 
     Depending on the level difficulty you choose from easy, medium, and hard, 
     you will earn a random amount of diamonds per correct question.
@@ -42,7 +42,7 @@ elif user_choice == 2:
     pass
 
 elif user_choice == 3:
-    print(how_to_play())
+    print(how_to_play())  # runs the how to play function
 
 # Game program ends. 
 elif user_choice == 4:
