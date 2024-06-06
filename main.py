@@ -5,9 +5,10 @@ Created by: Kelly
 Date: 6/06/2024
 """
 
-print(""Trivia Quiz Game
+print("""Trivia Quiz Game
+    Please enter the number of the choices below: 
     1. Play game
     2. Visit shop
-    3. How to play instructions"")
+    3. How to play instructions""")
 
-user_choice: str = input("Enter the number that co-responds to your choice: ")
+user_choice: str = input("Enter the number of your choice: ")
