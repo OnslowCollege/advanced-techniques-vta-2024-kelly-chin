@@ -27,7 +27,7 @@ program_running = True
 
 def shop() -> str:
     """Print a shop."""
-    print("~XXX FOR SALE!~")
+    print("== XXX FOR SALE! ==")
     for item in SHOP_ITEMS:
         print(item)
     return("")
@@ -49,7 +49,7 @@ def how_to_play() -> str:
     will not receive your reward AND lose diamonds. Diamonds can be spent for
     goodies at the shop.
 
-    Good Luck and have fun!   :)""")
+    Good Luck and have fun! 🤖""")
 
 
 if user_choice == 1:
