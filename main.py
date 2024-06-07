@@ -33,6 +33,7 @@ def shop() -> str:
     return("")
 
 
+# How to play instructions defined
 def how_to_play() -> str:
     """How to play instructions."""
 
@@ -59,6 +60,7 @@ elif user_choice == 2:
     print(shop())
 
 elif user_choice == 3:
+    # with the function, how to play instructions are printed. 
     print(how_to_play())  
 
 # Game program ends. 
