@@ -12,6 +12,8 @@ print("""
     3. How to play instructions 📜
     4. Exit game """)
 
+SHOP_ITEMS: {str, int} = {"trophy": 0}
+
 user_choice: int = int(input("\nEnter the number of your choice: "))
 
 program_running = True
