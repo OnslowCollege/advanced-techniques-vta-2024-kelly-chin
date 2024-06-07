@@ -12,12 +12,21 @@ print("""
     3. How to play instructions 📜
     4. Exit game """)
 
-SHOP_ITEMS: dict[str, int] = {"trophy": 0,
-                              }
+SHOP_ITEMS: dict[str, int | int] = {"x": 0,
+                              "xx": 0,
+                              "xxx": 0}
 
 user_choice: int = int(input("\nEnter the number of your choice: "))
 
 program_running = True
+
+def shop() -> str:
+    """Print a shop."""
+    print("~XXX FOR SALE!~")
+    for item in SHOP_ITEMS:
+        print(item)
+    return("")
+
 
 def how_to_play() -> str:
     """How to play instructions."""
@@ -42,7 +51,7 @@ if user_choice == 1:
     pass
 
 elif user_choice == 2:
-    pass
+    print(shop())
 
 elif user_choice == 3:
     print(how_to_play())  # runs the how to play function
