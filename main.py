@@ -12,9 +12,14 @@ print("""
     3. How to play instructions 📜
     4. Exit game """)
 
-SHOP_ITEMS: dict[str, int | int] = {"x": 0,
-                              "xx": 0,
-                              "xxx": 0}
+SHOP_ITEMS: dict[str, int] = {
+                              {"Name": "x",
+                               "Price": 0,
+                               "Quantity Owned": 0},
+
+                               {"Name": "x",
+                               "Price": 0,
+                               "Quantity Owned": 0}}
 
 user_choice: int = int(input("\nEnter the number of your choice: "))
 
