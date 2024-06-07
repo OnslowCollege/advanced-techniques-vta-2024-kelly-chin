@@ -13,11 +13,11 @@ print("""
     4. Exit game """)
 
 SHOP_ITEMS: dict[str, int] = {
-                              {"Name": "x",
-                               "Price": 0,
-                               "Quantity Owned": 0},
+                             {"Name": "x",
+                              "Price": 0,
+                              "Quantity Owned": 0},
 
-                               {"Name": "x",
+                              {"Name": "x",
                                "Price": 0,
                                "Quantity Owned": 0}}
 
