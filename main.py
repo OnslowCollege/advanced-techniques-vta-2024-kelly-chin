@@ -12,7 +12,7 @@ print("""
     3. How to play instructions 📜
     4. Exit game """)
 
-SHOP_ITEMS: dict[str, int] = {
+SHOP_ITEMS: dict[str, object] = {
                              {"Name": "x",
                               "Price": 0,
                               "Quantity Owned": 0},
