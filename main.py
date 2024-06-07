@@ -59,11 +59,11 @@ elif user_choice == 2:
     print(shop())
 
 elif user_choice == 3:
-    print(how_to_play())  # runs the how to play function
+    print(how_to_play())  
 
 # Game program ends. 
 elif user_choice == 4:
-    print("Thanks for playing! Hope you have enjoyed it! ")
+    print("Thanks for playing! Hope you have enjoyed it! 👋")
     program_running = False
 
 
