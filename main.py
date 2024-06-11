@@ -40,7 +40,7 @@ print("""
 
 """Stores shop items from a dictionary."""
 SHOP_ITEMS: dict[str, dict[str, int | int]] = {
-                             "Name": "x",
+                             "Name": {"x",
                               "Price": 0,
                               "Quantity Owned": 0},
 }
