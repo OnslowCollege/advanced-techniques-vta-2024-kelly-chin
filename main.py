@@ -43,6 +43,7 @@ SHOP_ITEMS: dict[str, dict[str, int | int]] = {
                              "Name": "x",
                               "Price": 0,
                               "Quantity Owned": 0},
+}
 
                               {"Name": "x",
                                "Price": 0,
