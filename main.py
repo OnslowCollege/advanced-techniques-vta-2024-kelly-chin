@@ -38,7 +38,7 @@ print("""
     3. How to play instructions 📜
     4. Exit game """)
 
-"""Stores shop items from a dictionary."""
+# Stores shop items from a dictionary.
 SHOP_ITEMS: dict[str, dict[str, int | int]] = {
     "item 1": {"Price": 0, "Quantity Owned": 0},
     "item 2": {"Price": 0, "Quantity Owned": 0},
