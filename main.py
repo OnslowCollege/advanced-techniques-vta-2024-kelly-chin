@@ -40,14 +40,9 @@ print("""
 
 """Stores shop items from a dictionary."""
 SHOP_ITEMS: dict[str, dict[str, int | int]] = {
-    "Name": {"x",
-                              "Price": 0,
-                              "Quantity Owned": 0},
-
-
-                              {"Name": "x",
-                               "Price": 0,
-                               "Quantity Owned": 0}
+    "item 1": {"Price": 0, "Quantity Owned": 0},
+    "item 2": {"Price": 0, "Quantity Owned": 0},
+}
 
 
 user_choice: int = int(input("\nEnter the number of your choice: "))
