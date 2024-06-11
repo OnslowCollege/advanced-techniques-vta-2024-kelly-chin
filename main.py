@@ -39,7 +39,7 @@ print("""
     4. Exit game """)
 
 """Stores shop items from a dictionary."""
-SHOP_ITEMS: dict[str, dict[str, int]] = {
+SHOP_ITEMS: dict[str, dict[str, int | str]] = {
                              {"Name": "x",
                               "Price": 0,
                               "Quantity Owned": 0},
