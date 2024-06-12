@@ -33,7 +33,7 @@ def how_to_play() -> str:
 
 def difficulty_page() -> str:
     """Asking user for prefered level difficulty."""
-    
+
 
 print("""
     Trivia Quiz Game
@@ -55,7 +55,7 @@ program_running = True
 
 
 if user_choice == 1:
-    
+    pass
 
 elif user_choice == 2:
     print(shop())
@@ -68,6 +68,10 @@ elif user_choice == 3:
 elif user_choice == 4:
     print("Thanks for playing! Hope you have enjoyed it! 👋")
     program_running = False
+
+else:
+    print("Error, please pick a number listed on the menu.")
+user_choice: int = int(input("\nEnter the number of your choice: "))
 
 
 
