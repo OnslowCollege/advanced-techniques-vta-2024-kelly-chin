@@ -7,7 +7,7 @@ Date: 6/06/2024
 # Function prints shop items
 def shop() -> str:
     """Print a shop."""
-    print("== XXX FOR SALE! ==")
+    print("== (items name) FOR SALE! ==")
     for item in SHOP_ITEMS:
         print(item)
     return("")
