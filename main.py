@@ -31,6 +31,10 @@ def how_to_play() -> str:
 
     Good Luck and have fun! 🤖""")
 
+def difficulty_page() -> str:
+    """Asking user for prefered level difficulty."""
+    
+
 print("""
     Trivia Quiz Game
     1. Play game 🎮
