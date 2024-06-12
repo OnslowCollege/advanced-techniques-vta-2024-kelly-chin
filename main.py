@@ -33,6 +33,7 @@ def how_to_play() -> str:
 
 def difficulty_page() -> str:
     """Asking user for prefered level difficulty."""
+    return ()
 
 
 print("""
@@ -71,7 +72,6 @@ elif user_choice == 4:
 
 else:
     print("Error, please pick a number listed on the menu.")
-user_choice: int = int(input("\nEnter the number of your choice: "))
 
 
 
