@@ -51,7 +51,7 @@ program_running = True
 
 
 if user_choice == 1:
-    pass
+    
 
 elif user_choice == 2:
     print(shop())
@@ -64,5 +64,6 @@ elif user_choice == 3:
 elif user_choice == 4:
     print("Thanks for playing! Hope you have enjoyed it! 👋")
     program_running = False
+
 
 
