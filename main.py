@@ -31,9 +31,7 @@ def how_to_play() -> str:
 
     Good Luck and have fun! 🤖""")
 
-def difficulty_page() -> str:
-    """Asking user for prefered level difficulty."""
-    return ()
+
 
 
 print("""
