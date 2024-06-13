@@ -34,7 +34,7 @@ def how_to_play() -> str:
 def difficulty_page() -> str:
     """Print difficulty of quiz game."""
 
-    return()
+    return ()
 
 
 # Stores shop items from a dictionary.
