@@ -31,6 +31,12 @@ def how_to_play() -> str:
 
     Good Luck and have fun! 🤖""")
 
+def difficulty_page() -> str:
+    """Print difficulty of quiz game."""
+    
+    return("")
+
+
 
 
 
@@ -54,7 +60,7 @@ program_running = True
 
 
 if user_choice == 1:
-    level_choice: str = input(str(input)
+    level_choice: str = str(input(""))
 
 elif user_choice == 2:
     print(shop())
