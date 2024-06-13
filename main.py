@@ -54,7 +54,7 @@ program_running = True
 
 
 if user_choice == 1:
-    pass
+    level_choice: str = input(str(input)
 
 elif user_choice == 2:
     print(shop())
