@@ -71,7 +71,7 @@ elif user_choice == 4:
     program_running = False
 
 else:
-    print("Error, please pick a number listed on the menu.")
+    print("Invalid choice. Please try again.")
 
 
 
