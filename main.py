@@ -37,7 +37,11 @@ def difficulty_page() -> str:
     return("")
 
 
-
+# Stores shop items from a dictionary.
+SHOP_ITEMS: dict[str, dict[str, int | int]] = {
+    "item 1": {"Price": 500, "Quantity Owned": 0},
+    "item 2": {"Price": 750, "Quantity Owned": 0},
+}
 
 
 print("""
@@ -46,12 +50,6 @@ print("""
     2. Visit shop 🛒🛍️
     3. How to play instructions 📜
     4. Exit game """)
-
-# Stores shop items from a dictionary.
-SHOP_ITEMS: dict[str, dict[str, int | int]] = {
-    "item 1": {"Price": 500, "Quantity Owned": 0},
-    "item 2": {"Price": 750, "Quantity Owned": 0},
-}
 
 
 user_choice: int = int(input("\nEnter the number of your choice: "))
