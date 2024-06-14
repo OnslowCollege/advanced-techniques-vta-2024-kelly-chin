@@ -63,7 +63,7 @@ program_running = True
 
 
 if user_choice == 1:
-    level_choice: str = str(input(""))
+    print(difficulty_page())
 
 elif user_choice == 2:
     print(shop())
