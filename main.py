@@ -37,8 +37,9 @@ def difficulty_page() -> str:
              Easy (E)
              Medium (M)
              Hard (H)""")
+    
     difficulty_choice: str = str(input("Choose difficulty (E, M, or H): "))
-    return ""
+    return ("")
 
 
 # Stores shop items from a dictionary.
