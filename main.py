@@ -33,8 +33,12 @@ def how_to_play() -> str:
 
 def difficulty_page() -> str:
     """Print difficulty of quiz game."""
-    print()
-    return()
+    print("""Difficulty: 
+             Easy (E)
+             Medium (M)
+             Hard (H)""")
+    difficulty_choice: str = str(input("Choose difficulty: "))
+    return ""
 
 
 # Stores shop items from a dictionary.
