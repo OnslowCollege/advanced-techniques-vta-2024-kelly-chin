@@ -4,7 +4,7 @@ Trivia Quiz game || Project Management.
 Created by: Kelly
 Date: 6/06/2024
 """
-# Function prints shop items
+# Function prints shop items.
 def shop() -> str:
     """Print a shop."""
     print("== (items name) FOR SALE! ==")
@@ -12,7 +12,7 @@ def shop() -> str:
         print(item)
     return("")
 
-# How to play instructions defined
+# How to play instructions defined.
 def how_to_play() -> str:
     """How to play instructions."""
 
@@ -31,6 +31,7 @@ def how_to_play() -> str:
 
     Good Luck and have fun! 🤖""")
 
+# Function for difficulty page before game starts.
 def difficulty_page() -> str:
     """Print difficulty of quiz game."""
     print("""Difficulty: 
@@ -41,6 +42,8 @@ def difficulty_page() -> str:
     difficulty_choice: str = str(input("Choose difficulty (E, M, or H): "))
     return ("")
 
+# bool dictates whether if program is running.
+program_running: bool = True
 
 # Stores shop items from a dictionary.
 SHOP_ITEMS: dict[str, dict[str, int | int]] = {
@@ -48,7 +51,7 @@ SHOP_ITEMS: dict[str, dict[str, int | int]] = {
     "item 2": {"Price": 750, "Quantity Owned": 0},
 }
 
-
+# Trivia Quiz game menu.
 print("""
     Trivia Quiz Game
     1. Play game 🎮
@@ -59,7 +62,6 @@ print("""
 
 user_choice: int = int(input("\nEnter the number of your choice: "))
 
-program_running = True
 
 
 if user_choice == 1:
@@ -79,6 +81,8 @@ elif user_choice == 4:
 
 else:
     print("Invalid choice. Please try again.")
+
+
 
 
 
