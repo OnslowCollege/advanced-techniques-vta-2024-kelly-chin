@@ -33,7 +33,7 @@ def how_to_play() -> str:
 
 def difficulty_page() -> str:
     """Print difficulty of quiz game."""
-
+    print()
     return()
 
 
