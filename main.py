@@ -76,7 +76,7 @@ elif user_choice == 3:
 
 # Game program ends. 
 elif user_choice == 4:
-    print("Thanks for playing! Hope you have enjoyed it! 👋")
+    print("Thanks for playing! Hope you have enjoyed and learnt something! 👋")
     program_running = False
 
 else:
