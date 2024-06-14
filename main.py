@@ -54,7 +54,7 @@ print("""
     1. Play game 🎮
     2. Visit shop 🛒🛍️
     3. How to play instructions 📜
-    4. Exit game """)
+    4. Exit game 🏃""")
 
 
 user_choice: int = int(input("\nEnter the number of your choice: "))
