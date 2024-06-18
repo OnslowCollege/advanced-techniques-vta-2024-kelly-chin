@@ -41,7 +41,16 @@ def difficulty_page() -> str:
     
     difficulty_choice: str = str(input("Choose difficulty (E, M, or H): "))
 
-    if difficulty_choice == "E"
+    if difficulty_choice == "E":
+        pass
+
+    elif difficulty_choice == "M":
+        pass
+    
+    elif difficulty_choice == "H":
+        pass 
+
+    else: 
     return ("")
 
 # bool dictates whether if program is running.
