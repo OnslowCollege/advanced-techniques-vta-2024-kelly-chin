@@ -60,9 +60,10 @@ program_running: bool = True
 
 # Stores shop items from a dictionary.
 SHOP_ITEMS: dict[str, dict[str, int | int]] = {
-    "item 1": {"Price": 500, "Quantity Owned": 0},
-    "item 2": {"Price": 750, "Quantity Owned": 0},
-    "item 3": {"Price": 1000, "Quantity Owned": 0},
+    "item 1": {"Price": 250, "Quantity Owned": 0},
+    "item 2": {"Price": 500, "Quantity Owned": 0},
+    "item 3": {"Price": 750, "Quantity Owned": 0},
+    "item 4": {"Price": 1000, "Quantity Owned": 0},
 }
 
 # Trivia Quiz game menu.
