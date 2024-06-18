@@ -81,7 +81,8 @@ user_choice: int = int(input("\nEnter the number of your choice: "))
 valid_option: bool = True
 
 while valid_option: 
-    if valid_option is not
+    if valid_option is not == "1", "2", "3", or "4":
+    
     if user_choice == 1:
         print(difficulty_page())
 
