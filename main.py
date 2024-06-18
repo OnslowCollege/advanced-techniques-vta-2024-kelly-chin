@@ -41,13 +41,13 @@ def difficulty_page() -> str:
     
     difficulty_choice: str = str(input("Choose difficulty (E, M, or H): "))
 
-    if difficulty_choice == "E":
+    if difficulty_choice.upper() == "E":
         pass
 
-    elif difficulty_choice == "M":
+    elif difficulty_choice.upper() == "M":
         pass
     
-    elif difficulty_choice == "H":
+    elif difficulty_choice.upper() == "H":
         pass 
 
     else:
