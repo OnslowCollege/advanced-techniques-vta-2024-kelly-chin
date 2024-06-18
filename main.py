@@ -7,7 +7,7 @@ Date: 6/06/2024
 # Function prints shop items.
 def shop() -> str:
     """Print a shop."""
-    print("== (items name) FOR SALE! ==")
+    print("== ITEMS FOR SALE! ==")
     for item in SHOP_ITEMS:
         print(item)
     return("")
@@ -62,6 +62,7 @@ program_running: bool = True
 SHOP_ITEMS: dict[str, dict[str, int | int]] = {
     "item 1": {"Price": 500, "Quantity Owned": 0},
     "item 2": {"Price": 750, "Quantity Owned": 0},
+    "item 3": {"Price": 1000, "Quantity Owned": 0},
 }
 
 # Trivia Quiz game menu.
