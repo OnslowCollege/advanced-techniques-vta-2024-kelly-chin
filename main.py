@@ -80,20 +80,21 @@ user_choice: int = int(input("\nEnter the number of your choice: "))
 # Bool dictates whether if the user input is valid  
 valid_option: bool = True
 
+while valid_option: 
+    if valid_option is not
+    if user_choice == 1:
+        print(difficulty_page())
 
-if user_choice == 1:
-    print(difficulty_page())
+    elif user_choice == 2:
+        print(shop())
 
-elif user_choice == 2:
-    print(shop())
-
-elif user_choice == 3:
+    elif user_choice == 3:
     # with the function, how to play instructions are printed. 
-    print(how_to_play())  
+        print(how_to_play())  
 
 # Game program ends. 
-elif user_choice == 4:
-    print("Thanks for playing! Hope you have enjoyed and learnt something! 👋")
+    elif user_choice == 4:
+        print("Thanks for playing! Hope you have enjoyed 👋")
     program_running = False
 
 else:
