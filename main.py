@@ -50,7 +50,9 @@ def difficulty_page() -> str:
     elif difficulty_choice == "H":
         pass 
 
-    else: 
+    else:
+        print("Invalid choice. Please try again.")
+    
     return ("")
 
 # bool dictates whether if program is running.
