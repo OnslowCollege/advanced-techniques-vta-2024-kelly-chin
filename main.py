@@ -76,8 +76,13 @@ print("""
 
 print("""
       Trivia Quiz Game
-      || Play Game || (P)
-      """)
+      || Play Game 🎮 || (P)
+      
+      || Visit Shop 🛒🛍️ || (V)
+      
+      || How to play instructions 📜 || (H)
+      
+      || Exit Game 🏃 || (E) """)
 
 
 user_choice: int = int(input("\nEnter the number of your choice: "))
