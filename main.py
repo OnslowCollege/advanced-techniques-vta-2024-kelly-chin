@@ -81,7 +81,7 @@ user_choice: int = int(input("\nEnter the number of your choice: "))
 valid_option: bool = True
 
 while valid_option: 
-    if valid_option is not == "1", "2", "3", or "4":
+    if valid_option is not == "1", "2", "3" or "4":
         valid_option = False
     else:
         print("Invalid choice. Please try again")
