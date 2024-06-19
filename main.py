@@ -36,8 +36,8 @@ def difficulty_page() -> str:
     """Print difficulty of quiz game."""
     print("""Difficulty: 
              Easy 😊 (E) 
-             Medium (M)
-             Hard (H)""")
+             Medium 😐 (M)
+             Hard 😣 (H)""")
     
     difficulty_choice: str = str(input("Choose difficulty (E, M, or H): "))
 
@@ -82,6 +82,7 @@ valid_option: bool = True
 
 while valid_option: 
     if valid_option is not == "1", "2", "3", or "4":
+        
     
     if user_choice == 1:
         print(difficulty_page())
