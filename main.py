@@ -82,7 +82,9 @@ valid_option: bool = True
 
 while valid_option: 
     if valid_option is not == "1", "2", "3", or "4":
-        
+        valid_option = False
+    else:
+        print("Invalid choice. Please try again")
     
     if user_choice == 1:
         print(difficulty_page())
