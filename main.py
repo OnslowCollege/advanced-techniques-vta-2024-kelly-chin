@@ -74,6 +74,8 @@ print("""
     3. How to play instructions 📜
     4. Exit game 🏃""")
 
+print("""Trivia Quiz Game """)
+
 
 user_choice: int = int(input("\nEnter the number of your choice: "))
 
