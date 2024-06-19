@@ -90,9 +90,9 @@ user_choice: int = int(input("\nEnter the number of your choice: "))
 # Bool dictates whether if the user input is valid  
 valid_option: bool = True
 
-while valid_option: 
+while valid_option is True:
 
-    if valid_option is not == 1, 2, 3 or 4:
+    if user_choice == 1, 2, 3 or 4:
         valid_option = False
     else:
         print("Invalid choice. Please try again")
