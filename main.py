@@ -92,7 +92,7 @@ valid_option: bool = True
 
 while valid_option is True:
 
-    if user_choice == 1, 2, 3 or 4:
+    if user_choice >= 4:
         valid_option = False
     else:
         print("Invalid choice. Please try again")
