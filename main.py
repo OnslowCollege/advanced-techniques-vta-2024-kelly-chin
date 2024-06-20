@@ -90,6 +90,7 @@ user_choice: int = int(input("\nEnter the number of your choice: "))
 # Bool dictates whether if the user input is valid  
 valid_option: bool = True
 
+# Valid option remains True until user enters invalid choice. 
 while valid_option is True:
 
     if user_choice >= 4:
@@ -97,19 +98,21 @@ while valid_option is True:
     else:
         print("Invalid choice. Please try again")
     
-    if user_choice == 1:
+
+if user_choice == 1:
         print(difficulty_page())
 
-    elif user_choice == 2:
-        print(shop())
+# Function prints shop menu.
+elif user_choice == 2:
+    print(shop())
 
-    elif user_choice == 3:
-    # with the function, how to play instructions are printed. 
-        print(how_to_play())  
+# Function prints how to play instructions. 
+elif user_choice == 3:
+    print(how_to_play())  
 
 # Game program ends. 
-    elif user_choice == 4:
-        print("Thanks for playing! Hope you have enjoyed 👋")
+elif user_choice == 4:
+    print("Thanks for playing! Hope you have enjoyed 👋")
     program_running = False
 
 else:
