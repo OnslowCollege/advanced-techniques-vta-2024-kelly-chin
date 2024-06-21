@@ -68,21 +68,29 @@ SHOP_ITEMS: dict[str, dict[str, int | int]] = {
 
 # Trivia Quiz game menu.
 print("""
-      Trivia Quiz Game
-      1. Play game 🎮
-      2. Visit shop 🛒🛍️
-      3. How to play instructions 📜
-      4. Exit game 🏃""")
+    Trivia Quiz Game
+    1. Play game 🎮
+    2. Visit shop 🛒🛍️
+    3. How to play instructions 📜
+    4. Exit game 🏃
+    """)
 
 print("""
-      Trivia Quiz Game
-      || Play Game 🎮 || (P)
-      
-      || Visit Shop 🛒🛍️ || (V)
-      
-      || How to play instructions 📜 || (H)
-      
-      || Exit Game 🏃 || (E) """)
+                    Trivia Quiz Game
+    
+    --------------------       -------------------------
+    ||Play Game 🎮 (1)||      || Visit Shop 🛒🛍️ (2) || 
+    --------------------       -------------------------
+
+    -------------------------------------     ---------------------
+    || How to play instructions 📜 (3) ||    || Exit Game 🏃 (4) || 
+    -------------------------------------     ---------------------
+    """)
+
+print("""
+
+
+""")
 
 
 
