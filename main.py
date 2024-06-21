@@ -68,7 +68,7 @@ SHOP_ITEMS: dict[str, dict[str, int | int]] = {
 
 # Trivia Quiz game menu.
 print("""
-    Trivia Quiz Game
+    Trivia Quiz Game!
     1. Play game 🎮
     2. Visit shop 🛒🛍️
     3. How to play instructions 📜
@@ -76,11 +76,11 @@ print("""
     """)
 
 print("""
-                    Trivia Quiz Game
-    
-    --------------------       -------------------------
-    ||Play Game 🎮 (1)||      || Visit Shop 🛒🛍️ (2) || 
-    --------------------       -------------------------
+                    Trivia Quiz Game! 
+
+    ---------------------       -------------------------
+    || Play Game 🎮 (1)||      || Visit Shop 🛒🛍️ (2) || 
+    ---------------------       -------------------------
 
     -------------------------------------     ---------------------
     || How to play instructions 📜 (3) ||    || Exit Game 🏃 (4) || 
@@ -91,9 +91,6 @@ print("""
 
 
 """)
-
-
-
 
 user_choice: int = int(input("\nEnter the number of your choice: "))
 
