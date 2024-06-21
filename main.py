@@ -76,7 +76,7 @@ print("""
     """)
 
 print("""
-                    Trivia Quiz Game! 
+                    Trivia Quiz Game!
 
     ---------------------       -------------------------
     || Play Game 🎮 (1)||      || Visit Shop 🛒🛍️ (2) || 
@@ -88,7 +88,12 @@ print("""
     """)
 
 print("""
+                    Trivia Quiz Game!
+                    (P) Play game 🎮
+            
+    (V) Visit Shop 🛒🛍️             (H) How to Play instructions 📜
 
+                    (E) Exit game 🏃
 
 """)
 
