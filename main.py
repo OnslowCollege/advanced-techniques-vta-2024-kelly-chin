@@ -107,6 +107,7 @@ while valid_option is True:
 
     if user_choice >= 4:
         valid_option = False
+        user_choice: int = int(input("\nEnter the number of your choice: "))
     else:
         print("Invalid choice. Please try again")
     
