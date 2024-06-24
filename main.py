@@ -109,7 +109,7 @@ while user_choice == "":
         print("text")
     else:
         print("Invalid choice. Please try again")
-    
+    valid_option = False
 
 if user_choice == 1:
         print(difficulty_page())
