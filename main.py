@@ -101,12 +101,12 @@ print("""
 user_choice: int = int(input("\nEnter the number of your choice: "))
 
 # Bool dictates whether if the user input is valid  
-valid_option: bool = True
+valid_option: bool = False
 
 # Valid option remains True until user enters invalid choice. 
-while valid_option is True:
+while valid_option is False:
     if user_choice >= 5:
-        valid_option = False
+        print("Please ")
     else:
         print("Invalid choice. Please try again")
     
