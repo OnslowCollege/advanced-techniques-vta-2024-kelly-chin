@@ -88,9 +88,10 @@ print("""
     """)
 
 print("""
-                        Trivia Quiz Game!
+                    » Trivia Quiz Game! «
+
                     (P) ↪ Play game 🎮
-            
+                    
     (V) ↪ Visit Shop 🛒🛍️             (H) ↪ How to Play instructions 📜
 
                     (E) ↪ Exit game 🏃
