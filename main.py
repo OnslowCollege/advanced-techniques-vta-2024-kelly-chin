@@ -104,9 +104,9 @@ user_choice: int = int(input("\nEnter the number of your choice: "))
 valid_option: bool = False
 
 # Valid option remains True until user enters invalid choice. 
-while valid_option is False:
-    if user_choice >= 5:
-        print("Please ")
+while user_choice == "":
+    if user_choice <= 5:
+        print("text")
     else:
         print("Invalid choice. Please try again")
     
