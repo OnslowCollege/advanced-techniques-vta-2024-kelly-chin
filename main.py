@@ -35,9 +35,9 @@ def how_to_play() -> str:
 def difficulty_page() -> str:
     """Print difficulty of quiz game."""
     print("""Difficulty: 
-             Easy 😊 (E) 
-             Medium 😐 (M)
-             Hard 😣 (H)""")
+            Easy 😊 (E) 
+            Medium 😐 (M)
+            Hard 😣 (H)""")
     
     difficulty_choice: str = str(input("Choose difficulty (E, M, or H): "))
 
