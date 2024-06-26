@@ -67,36 +67,18 @@ SHOP_ITEMS: dict[str, dict[str, int | int]] = {
 }
 
 # Trivia Quiz game menu.
-print("""
-    Trivia Quiz Game!
-    1. Play game 🎮
-    2. Visit shop 🛒🛍️
-    3. How to play instructions 📜
-    4. Exit game 🏃
-    """)
 
 print("""
                     Trivia Quiz Game!
 
-    ---------------------       -------------------------
-    || Play Game 🎮 (1)||      || Visit Shop 🛒🛍️ (2) || 
-    ---------------------       -------------------------
+    ---------------------                     -------------------------
+    || Play Game 🎮 (1)||                    || Visit Shop 🛒🛍️ (2) || 
+    ---------------------                     -------------------------
 
-    -------------------------------------     ---------------------
-    || How to play instructions 📜 (3) ||    || Exit Game 🏃 (4) || 
-    -------------------------------------     ---------------------
+    -------------------------------------     -------------------------
+    || How to play instructions 📜 (3) ||    || Exit Game 🏃     (4) || 
+    -------------------------------------     -------------------------
     """)
-
-print("""
-                    » Trivia Quiz Game! «
-
-                    (P) ↪ Play game 🎮
-
-    (V) ↪ Visit Shop 🛒🛍️             (H) ↪ How to Play instructions 📜
-
-                    (E) ↪ Exit game 🏃
-
-""")
 
 user_choice: int = int(input("\nEnter the number of your choice: "))
 
