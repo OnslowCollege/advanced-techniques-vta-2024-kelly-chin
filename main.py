@@ -85,16 +85,16 @@ print("""
     -------------------------------------     -------------------------
     """)
 
-user_choice: int = int(input("\nEnter the number of your choice: "))
 
 # Bool dictates whether if the user input is valid  
 valid_option: bool = False
 user_choice = 0
 # Valid option remains True until user enters invalid choice. 
-while not user_choice:
-    user_input: str = input(question)
+while user_choice == 0:
+    try:
+        user_choice: int = int(input("\nEnter the number of your choice: "))
 
-    if user_choice == 1:
+        if user_choice == 1:
         print(difficulty_page())
 
 # Function prints shop menu.
