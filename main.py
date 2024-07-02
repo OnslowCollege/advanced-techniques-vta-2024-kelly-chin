@@ -82,7 +82,7 @@ print("""
 
 # Bool dictates whether if the user input is valid  
 valid_option: bool = False
-user_choice = 0
+user_choice: int = 0
 # Valid option remains True until user enters invalid choice. 
 while valid_option is False:
     try:
