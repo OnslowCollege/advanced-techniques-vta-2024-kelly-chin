@@ -105,6 +105,6 @@ while valid_option is False:
             valid_option = True
         else:
             print("Invalid option entered. Please try again.")
-            valid_option = False
+            
     except ValueError:
         print("Invalid option. Please try again.")
