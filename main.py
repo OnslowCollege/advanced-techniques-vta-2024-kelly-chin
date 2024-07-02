@@ -89,7 +89,7 @@ user_choice: int = int(input("\nEnter the number of your choice: "))
 
 # Bool dictates whether if the user input is valid  
 valid_option: bool = False
-
+user_choice = 0
 # Valid option remains True until user enters invalid choice. 
 while not valid_option:
     user_input: str = input(question)
