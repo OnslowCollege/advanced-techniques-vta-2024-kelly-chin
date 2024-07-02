@@ -109,9 +109,9 @@ while user_choice == 0:
         elif user_choice == 4:
             print("Thanks for playing! Hope you have enjoyed 👋")
             program_running = False
-    
-    else:
-print("Invalid option entered. Please try again.")
+
+        else:
+            print("Invalid option entered. Please try again.")
 
     except ValueError:
         print("Invalid option. Please try again.")
