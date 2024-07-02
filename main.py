@@ -94,29 +94,24 @@ valid_option: bool = False
 while not valid_option:
     user_input: str = input(question)
 
-    try:
-
-        if user_choice == 1:
-            print(difficulty_page())
+    if user_choice == 1:
+        print(difficulty_page())
 
 # Function prints shop menu.
-        elif user_choice == 2:
-            print(shop())
+    elif user_choice == 2:
+        print(shop())
 
 # Function prints how to play instructions. 
-        elif user_choice == 3:
-            print(how_to_play())  
+    elif user_choice == 3:
+        print(how_to_play())  
 
 # Game program ends. 
-        elif user_choice == 4:
-            print("Thanks for playing! Hope you have enjoyed 👋")
+    elif user_choice == 4:
+        print("Thanks for playing! Hope you have enjoyed 👋")
         program_running = False
 
-        else:
-        print("Invalid option. Please try again.")
-
-    except ValueError:
-        print("Error occured. Please try again.")
+else:
+    print("Invalid option. Please try again.")
 
 
 
