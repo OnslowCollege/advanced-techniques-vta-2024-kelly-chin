@@ -84,7 +84,7 @@ print("""
 valid_option: bool = False
 user_choice = 0
 # Valid option remains True until user enters invalid choice. 
-while user_choice == 0:
+while valid_option is False:
     try:
         user_choice = int(input("\nEnter the number of your choice: "))
         if user_choice == 1:
