@@ -91,7 +91,7 @@ user_choice: int = int(input("\nEnter the number of your choice: "))
 valid_option: bool = False
 user_choice = 0
 # Valid option remains True until user enters invalid choice. 
-while not valid_option:
+while not user_choice:
     user_input: str = input(question)
 
     if user_choice == 1:
