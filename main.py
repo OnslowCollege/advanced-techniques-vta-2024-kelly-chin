@@ -55,6 +55,11 @@ def difficulty_page() -> str:
     
     return ("")
 
+# Questions to ask user, return the 
+def question() -> str:
+    """Asking user a question."""
+    return("user's input")
+
 # bool dictates whether if program is running.
 program_running: bool = True
 
@@ -86,7 +91,8 @@ user_choice: int = int(input("\nEnter the number of your choice: "))
 valid_option: bool = False
 
 # Valid option remains True until user enters invalid choice. 
-while user_choice == "":
+while not valid_option:
+    user_input: str = input(question)
 
     if user_choice == 1:
         print(difficulty_page())
@@ -105,6 +111,7 @@ while user_choice == "":
     program_running = False
 
 else:
-    print("Invalid choice. Please try again.")
+    print("Invalid option. Please try again")
+
 
 
