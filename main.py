@@ -67,7 +67,10 @@ SHOP_ITEMS: dict[str, dict[str, int | int]] = {
 }
 
 TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
-    "What is the "}
+    "Easy": {""}
+    
+    
+}
 
 # Trivia Quiz game menu.
 
