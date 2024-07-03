@@ -70,8 +70,7 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
     "Easy": {
             "What country is the biggest in the world?": "Russia"},
 
-    
-    
+
 }
 
 # Trivia Quiz game menu.
