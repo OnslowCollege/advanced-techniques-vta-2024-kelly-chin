@@ -68,8 +68,10 @@ SHOP_ITEMS: dict[str, dict[str, int | int]] = {
 
 TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
     "Easy": {
-            "What country is the largest in the world?": "Russia"
-            ""},
+            "What country is the largest in the world?": "Russia",
+            "Which sport uses the terms, Spare and Strike?": "Bowling",
+            ""
+            },
 
 
 }
