@@ -72,7 +72,8 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
         "Which sport uses the terms, Spare and Strike?": "Bowling",
     },
     "Medium": {},
-    "Hard": {"In the film, \"Dead Poets Society\", who played the character, \"Neil Perry?\"": "Robert Sean Leonard"},
+    "Hard": {"In the film, \"Dead Poets Society\", who played the character, \"Neil Perry?\"": "Robert Sean Leonard"
+            },
 }
 
 # Trivia Quiz game menu.
