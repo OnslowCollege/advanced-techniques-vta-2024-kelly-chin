@@ -72,7 +72,7 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
         "Which sport uses the terms, Spare and Strike?": "Bowling",
     },
     "Medium": {},
-    "Hard": {"In the film, \"Dead Poets Society\" },
+    "Hard": {"In the film, \"Dead Poets Society\" " },
 }
 
 # Trivia Quiz game menu.
