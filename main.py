@@ -74,9 +74,9 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
     },
     "Medium": {},
     "Hard": {
-        "In the film, \"Dead Poets Society\", who played the character,\"Neil Perry?\"": "Robert Sean Leonard",
-            
-            },
+        'In the film, "Dead Poets Society", who played the character "Neil Perry?"': "Robert Sean Leonard",
+        ""
+    },
 }
 
 # Trivia Quiz game menu.
