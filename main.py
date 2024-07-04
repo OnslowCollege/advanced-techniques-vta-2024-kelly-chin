@@ -72,10 +72,9 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
         "What country is the largest in the world?": "Russia",
         "Which sport uses the terms, Spare and Strike?": "Bowling",
     },
-    "Medium": {},
+    "Medium": {"How many keys are there on a computer"},
     "Hard": {
         'In the film, "Dead Poets Society", who played the character "Neil Perry?"': "Robert Sean Leonard",
-        ""
     },
 }
 
