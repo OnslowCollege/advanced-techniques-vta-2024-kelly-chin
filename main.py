@@ -83,6 +83,9 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
         "What is the 6th element in the periodic table?": "Nitrogen",
         'Which planet is known as the "Blue Planet"?': "Earth",
         "What do you call baby kangaroos?": "Joey",
+        'What year did the "y2k" problem occur?': "2000",
+        "What language did the ancient Romans speak?": "Latin",
+        
     },
     "Hard": {
         'In the film "Dead Poets Society", which actor played "Neil Perry?"': "Robert Sean Leonard",
@@ -91,7 +94,6 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
         "How many hearts does an octopus have?": "3",
         "Which country is the only one that has the bible on their flag?": "Dominician Republic",
         'Which greek philosopher famously said, "Man is the measure of all things?': "Protogoras",
-        
     },
 }
 
