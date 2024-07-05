@@ -74,6 +74,8 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
         "What is the 4th letter in the English alphabet?": "D",
         "What country did french fries originate?": "Belgium",
         "Which galaxy do we live in?": "The Milky Way",
+        "What element do humans need to survive?": "Oxygen",
+
     },
     "Medium": {
         "What country is the only country with a triangular flag?": "Nepal",
@@ -89,6 +91,7 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
         "How many hearts does an octopus have?": "3",
         "Which country is the only one that has the bible on their flag?":
         "Dominician Republic",
+        
 
     },
 }
