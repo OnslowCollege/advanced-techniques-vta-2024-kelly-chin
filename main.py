@@ -90,6 +90,7 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
         "Which Asian country fought in 7 deadliests wars in history?": "China",
         "How many hearts does an octopus have?": "3",
         "Which country is the only one that has the bible on their flag?": "Dominician Republic",
+        'Which greek philosopher famously said, "Man is the measure of all things?': "Protogoras",
         
     },
 }
