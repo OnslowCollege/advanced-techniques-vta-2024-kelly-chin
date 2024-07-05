@@ -87,6 +87,7 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
         "What do you call baby kangaroos?": "Joey",
         'What year did the "y2k" problem occur?': "2000",
         "What language did the ancient Romans speak?": "Latin",
+        "Which volcano in Indonesia caused the loudest sound in history?": "Krakatoa",
         
     },
     "Hard": {
