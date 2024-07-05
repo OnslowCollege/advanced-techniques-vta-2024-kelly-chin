@@ -87,7 +87,7 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
         "What is the only parrot that cannot fly?": "Kakapo",
         "Which Asian country fought in 7 deadliests wars in history?": "China",
         "How many hearts does an octopus have?": "3",
-        
+        ""
     },
 }
 
