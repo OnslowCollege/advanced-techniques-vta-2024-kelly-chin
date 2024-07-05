@@ -92,7 +92,6 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
         "Which country is the only one that has the bible on their flag?":
         "Dominician Republic",
         
-
     },
 }
 
