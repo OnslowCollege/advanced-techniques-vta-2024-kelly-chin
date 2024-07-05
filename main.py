@@ -97,6 +97,8 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
         "Which country is the only one that has the bible on their flag?": "Dominician Republic",
         'Which greek philosopher famously said, "Man is the measure of all things?': "Protogoras",
         "What shark species was the largest to have ever lived?": "Megalodon",
+        'What character did  play in the TV series, "The 100"?': "Bellamy Blake",
+
     },
 }
 
