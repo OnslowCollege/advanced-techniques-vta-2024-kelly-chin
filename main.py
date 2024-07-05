@@ -75,6 +75,7 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
         "What country did french fries originate?": "Belgium",
         "Which galaxy do we live in?": "The Milky Way",
         "What element do humans need to survive?": "Oxygen",
+        'What does the fast food chain, "KFC" stand for?': "Kentucky Fried Chicken",
 
     },
     "Medium": {
@@ -84,13 +85,11 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
         "What do you call baby kangaroos?": "Joey",
     },
     "Hard": {
-        'In the film "Dead Poets Society", which actor played "Neil Perry?"': 
-        "Robert Sean Leonard",
+        'In the film "Dead Poets Society", which actor played "Neil Perry?"': "Robert Sean Leonard",
         "What is the only parrot that cannot fly?": "Kakapo",
         "Which Asian country fought in 7 deadliests wars in history?": "China",
         "How many hearts does an octopus have?": "3",
-        "Which country is the only one that has the bible on their flag?":
-        "Dominician Republic",
+        "Which country is the only one that has the bible on their flag?": "Dominician Republic",
         
     },
 }
