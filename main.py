@@ -73,7 +73,7 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
         "Which sport uses the terms, Spare and Strike?": "Bowling",
         "What is the 4th letter in the English alphabet?": "D",
         "What country did french fries originate?": "Belgium",
-        
+
         },
         
     "Medium": {
@@ -83,6 +83,7 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
     "Hard": {
         'In the film "Dead Poets Society", which actor played "Neil Perry?"': 
         "Robert Sean Leonard",
+        "What is the only parrot that cannot fly?": "Kakapo",
         },
 }
 
