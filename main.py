@@ -76,6 +76,8 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
         "Which galaxy do we live in?": "The Milky Way",
         "What element do humans need to survive?": "Oxygen",
         'What does the fast food chain, "KFC" stand for?': "Kentucky Fried Chicken",
+        "What is the name of the Greek Goddess of Love and Beauty?": "Aphrodite",
+        
 
     },
     "Medium": {
@@ -85,7 +87,6 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
         "What do you call baby kangaroos?": "Joey",
         'What year did the "y2k" problem occur?': "2000",
         "What language did the ancient Romans speak?": "Latin",
-        
     },
     "Hard": {
         'In the film "Dead Poets Society", which actor played "Neil Perry?"': "Robert Sean Leonard",
