@@ -74,21 +74,20 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
         "What is the 4th letter in the English alphabet?": "D",
         "What country did french fries originate?": "Belgium",
         "Which galaxy do we live in?": "The Milky Way",
-        },
-        
+    },
     "Medium": {
         "What country is the only country with a triangular flag?": "Nepal",
         "What is the 6th element in the periodic table?": "Nitrogen",
         'Which planet is known as the "Blue Planet"?': "Earth",
-        
-        },
+        "What do you call baby kangaroos?": "Joey",
+    },
     "Hard": {
         'In the film "Dead Poets Society", which actor played "Neil Perry?"': 
         "Robert Sean Leonard",
         "What is the only parrot that cannot fly?": "Kakapo",
         "Which Asian country fought in 7 deadliests wars in history?": "China",
-        },
-
+    
+    },
 }
 
 # Trivia Quiz game menu.
