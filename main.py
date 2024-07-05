@@ -71,12 +71,17 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
     "Easy": {
         "What country is the largest in the world?": "Russia",
         "Which sport uses the terms, Spare and Strike?": "Bowling",
+        "What is the 4th letter in the English alphabet?": "D",
+        "What country did french fries originate?": "Belgium",
+        
         },
+        
     "Medium": {
         "What country is the only country with a triangular flag?": "Nepal",
+        "What is the 6th element in the periodic table?": "Nitrogen",
         },
     "Hard": {
-        'In the film, "Dead Poets Society", who played the character "Neil Perry?"': 
+        'In the film "Dead Poets Society", which actor played "Neil Perry?"': 
         "Robert Sean Leonard",
         },
 }
