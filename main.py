@@ -73,7 +73,7 @@ def difficulty_page() -> str:
 # Questions to ask user, return the 
 def question() -> str:
     """Asking user a question."""
-    return("user's input")
+    return("user input")
 
 # bool dictates whether if program is running.
 program_running: bool = True
