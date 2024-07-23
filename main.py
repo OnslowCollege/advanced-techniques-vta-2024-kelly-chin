@@ -45,8 +45,12 @@ def difficulty_page() -> str:
                     ||             Hard 😡(H)           ||    
                     -------------------------------------  
 
-
+    Quiz difficulty:
     
+    Easy 😊(E)
+    Medium 😐 (M)
+    Hard 😡(H)
+
     
         """)
 
