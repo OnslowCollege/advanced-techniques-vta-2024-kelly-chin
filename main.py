@@ -77,7 +77,10 @@ while valid_option is False:
             print(TRIVIA_QUESTIONS["Hard"])
         else:
             print("Invalid choice. Please try again.")
-    return ("")
+    except ValueError:
+        print("Invalid option. Please try again.")
+
+    return ("us")
 
 # Questions to ask user, return the 
 def question() -> str:
