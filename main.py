@@ -61,9 +61,12 @@ def difficulty_page() -> str:
 
     difficulty_choice: str = str(input("Choose difficulty (E, M, or H): "))
     if difficulty_choice.upper() == "E":
+        # Prints easy trivia questions.
         print(TRIVIA_QUESTIONS["Easy"])
+        # Prints medium trivia questions.
     elif difficulty_choice.upper() == "M":
         print(TRIVIA_QUESTIONS["Medium"])
+        # Prints hard trivia questions.
     elif difficulty_choice.upper() == "H":
         print(TRIVIA_QUESTIONS["Hard"])
     else:
@@ -123,7 +126,6 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
 }
 
 # Trivia Quiz game menu.
-
 print("""
                     Trivia Quiz Game!
 
