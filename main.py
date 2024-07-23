@@ -51,10 +51,12 @@ def difficulty_page() -> str:
     Medium 😐 (M)
     Hard 😡(H)
 
-                        
+                        Quiz Difficulty:
         
-        » Easy 😊(E) « 
-    
+        » Easy 😊(E) «          » Medium 😐 (M) «
+
+                    » Hard 😡(H) «
+        
         """)
 
     difficulty_choice: str = str(input("Choose difficulty (E, M, or H): "))
