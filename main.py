@@ -41,11 +41,11 @@ def difficulty_page() -> str:
 
     difficulty_choice: str = str(input("Choose difficulty (E, M, or H): "))
     if difficulty_choice.upper() == "E":
-        pass
+        print(TRIVIA_QUESTIONS["Easy"])
     elif difficulty_choice.upper() == "M":
-        pass
+        print(TRIVIA_QUESTIONS["Medium"])
     elif difficulty_choice.upper() == "H":
-        pass
+        print(TRIVIA_QUESTIONS["Hard"])
     else:
         print("Invalid choice. Please try again.")
     return ("")
