@@ -34,10 +34,20 @@ def how_to_play() -> str:
 # Function for difficulty page before game starts.
 def difficulty_page() -> str:
     """Print difficulty of quiz game."""
-    print("""Difficulty: 
-            Easy 😊 (E) 
-            Medium 😐 (M)
-            Hard 😣 (H)""")
+
+    print("""                   Difficulty: 
+    
+    -------------------------------      -------------------------
+    ||           Easy (E)         ||    ||      Medium (M)       || 
+    -------------------------------      -------------------------
+
+                    -------------------------------------     
+                    ||             Hard (H)             ||    
+                    -------------------------------------  
+
+    
+    
+        """)
 
     difficulty_choice: str = str(input("Choose difficulty (E, M, or H): "))
     if difficulty_choice.upper() == "E":
