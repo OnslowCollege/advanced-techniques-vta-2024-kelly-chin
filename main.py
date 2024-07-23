@@ -52,6 +52,7 @@ def difficulty_page() -> str:
     Hard 😡(H)
 
     
+    
         """)
 
     difficulty_choice: str = str(input("Choose difficulty (E, M, or H): "))
