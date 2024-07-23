@@ -51,7 +51,9 @@ def difficulty_page() -> str:
     Medium 😐 (M)
     Hard 😡(H)
 
-    
+                        
+        
+        » Easy 😊(E) « 
     
         """)
 
