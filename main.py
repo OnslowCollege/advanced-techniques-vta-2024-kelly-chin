@@ -61,20 +61,22 @@ def difficulty_page() -> str:
 
     difficulty_choice: str = str(input("Choose difficulty (E, M, or H): "))
 
-while valid_option = False:
+# Bool dictates whether if the user input is valid  
+valid_option: bool = False
+
+while valid_option is False:
     try:
-    
-    if difficulty_choice.upper() == "E":
-        # Prints easy trivia questions.
-        print(TRIVIA_QUESTIONS["Easy"])
-        # Prints medium trivia questions.
-    elif difficulty_choice.upper() == "M":
-        print(TRIVIA_QUESTIONS["Medium"])
+        if difficulty_choice.upper() == "E":
+            # Prints easy trivia questions.
+            print(TRIVIA_QUESTIONS["Easy"])
+            # Prints medium trivia questions.
+        elif difficulty_choice.upper() == "M":
+            print(TRIVIA_QUESTIONS["Medium"])
         # Prints hard trivia questions.
-    elif difficulty_choice.upper() == "H":
-        print(TRIVIA_QUESTIONS["Hard"])
-    else:
-        print("Invalid choice. Please try again.")
+        elif difficulty_choice.upper() == "H":
+            print(TRIVIA_QUESTIONS["Hard"])
+        else:
+            print("Invalid choice. Please try again.")
     return ("")
 
 # Questions to ask user, return the 
@@ -84,9 +86,6 @@ def question() -> str:
 
 # bool dictates whether if program is running.
 program_running: bool = True
-
-# Bool dictates whether if the user input is valid  
-valid_option: bool = False
 
 # Stores shop items from a dictionary.
 SHOP_ITEMS: dict[str, dict[str, int | int]] = {
