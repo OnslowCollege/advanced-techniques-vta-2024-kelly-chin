@@ -142,20 +142,23 @@ while valid_option is False:
                     -------------------------------------     
                     ||             Hard 😡(H)           ||    
                     -------------------------------------  
+""")
 
-    Quiz difficulty:
-    
-    Easy 😊(E)
-    Medium 😐 (M)
-    Hard 😡(H)
-
-                    Quiz Difficulty:
-        
-        » Easy 😊(E) «          » Medium 😐 (M) «
-
-                    » Hard 😡(H) «
-                    """)
-
+    while valid_option is False:
+    try:
+                if difficulty_choice.upper() == "E":
+                # Prints easy trivia questions.
+                print(TRIVIA_QUESTIONS["Easy"])
+            # Prints medium trivia questions.
+        elif difficulty_choice.upper() == "M":
+            print(TRIVIA_QUESTIONS["Medium"])
+        # Prints hard trivia questions.
+        elif difficulty_choice.upper() == "H":
+            print(TRIVIA_QUESTIONS["Hard"])
+        else:
+            print("Invalid choice. Please try again.")
+    except ValueError:
+        print("Invalid option. Please try again.")
             valid_option = True
             
             
