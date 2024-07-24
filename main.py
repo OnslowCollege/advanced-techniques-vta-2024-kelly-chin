@@ -145,8 +145,8 @@ while valid_option is False:
 """)
 
     while valid_option is False:
-    try:
-                if difficulty_choice.upper() == "E":
+        try:
+            if difficulty_choice.upper() == "E":
                 # Prints easy trivia questions.
                 print(TRIVIA_QUESTIONS["Easy"])
             # Prints medium trivia questions.
