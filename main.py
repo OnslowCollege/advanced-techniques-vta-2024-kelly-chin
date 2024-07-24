@@ -59,6 +59,8 @@ def difficulty_page() -> str:
         
         """)
 
+# Bool dictates whether if the user input is valid  
+valid_option: bool = False
 
 while valid_option is False:
     try:
@@ -85,8 +87,7 @@ def question() -> str:
 
 # bool dictates whether if program is running.
 program_running: bool = True
-# Bool dictates whether if the user input is valid  
-valid_option: bool = False
+
 
 # Stores shop items from a dictionary.
 SHOP_ITEMS: dict[str, dict[str, int | int]] = {
