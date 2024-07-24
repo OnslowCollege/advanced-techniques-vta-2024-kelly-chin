@@ -35,12 +35,30 @@ def how_to_play() -> str:
 def difficulty_page() -> str:
     """Print difficulty of quiz game."""
 
+    return ("""                   Quiz Difficulty: 
+    
+    -------------------------------      -------------------------
+    ||          Easy 😊(E)        ||    ||      Medium 😐 (M)   || 
+    -------------------------------      -------------------------
 
+                    -------------------------------------     
+                    ||             Hard 😡(H)           ||    
+                    -------------------------------------  
 
+    Quiz difficulty:
+    
+    Easy 😊(E)
+    Medium 😐 (M)
+    Hard 😡(H)
 
+                    Quiz Difficulty:
+        
+        » Easy 😊(E) «          » Medium 😐 (M) «
 
-# Bool dictates whether if the user input is valid  
-valid_option: bool = False
+                    » Hard 😡(H) «
+        
+        """)
+
 
 while valid_option is False:
     try:
@@ -67,7 +85,8 @@ def question() -> str:
 
 # bool dictates whether if program is running.
 program_running: bool = True
-
+# Bool dictates whether if the user input is valid  
+valid_option: bool = False
 
 # Stores shop items from a dictionary.
 SHOP_ITEMS: dict[str, dict[str, int | int]] = {
@@ -133,37 +152,9 @@ while valid_option is False:
     try:
         user_choice = int(input("\nEnter the number of your choice: "))
         if user_choice == 1:
-                print("""         Quiz Difficulty: 
-    
-    -------------------------------      -------------------------
-    ||          Easy 😊(E)        ||    ||      Medium 😐 (M)   || 
-    -------------------------------      -------------------------
-
-                    -------------------------------------     
-                    ||             Hard 😡(H)           ||    
-                    -------------------------------------  
-""")
-
-    while valid_option is False:
-        try:
-            if difficulty_choice.upper() == "E":
-                # Prints easy trivia questions.
-                print(TRIVIA_QUESTIONS["Easy"])
-            # Prints medium trivia questions.
-        elif difficulty_choice.upper() == "M":
-            print(TRIVIA_QUESTIONS["Medium"])
-        # Prints hard trivia questions.
-        elif difficulty_choice.upper() == "H":
-            print(TRIVIA_QUESTIONS["Hard"])
-        else:
-            print("Invalid choice. Please try again.")
-    except ValueError:
-        print("Invalid option. Please try again.")
+            print(difficulty_page())
             valid_option = True
-            
-            
             # Function prints shop menu.
-        
         elif user_choice == 2:
             print(shop())
             valid_option = True
