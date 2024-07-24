@@ -35,29 +35,9 @@ def how_to_play() -> str:
 def difficulty_page() -> str:
     """Print difficulty of quiz game."""
 
-    print("""                   Quiz Difficulty: 
-    
-    -------------------------------      -------------------------
-    ||          Easy 😊(E)        ||    ||      Medium 😐 (M)   || 
-    -------------------------------      -------------------------
 
-                    -------------------------------------     
-                    ||             Hard 😡(H)           ||    
-                    -------------------------------------  
 
-    Quiz difficulty:
-    
-    Easy 😊(E)
-    Medium 😐 (M)
-    Hard 😡(H)
 
-                    Quiz Difficulty:
-        
-        » Easy 😊(E) «          » Medium 😐 (M) «
-
-                    » Hard 😡(H) «
-        
-        """)
 
 # Bool dictates whether if the user input is valid  
 valid_option: bool = False
@@ -153,9 +133,34 @@ while valid_option is False:
     try:
         user_choice = int(input("\nEnter the number of your choice: "))
         if user_choice == 1:
-            print(difficulty_page())
+                print("""         Quiz Difficulty: 
+    
+    -------------------------------      -------------------------
+    ||          Easy 😊(E)        ||    ||      Medium 😐 (M)   || 
+    -------------------------------      -------------------------
+
+                    -------------------------------------     
+                    ||             Hard 😡(H)           ||    
+                    -------------------------------------  
+
+    Quiz difficulty:
+    
+    Easy 😊(E)
+    Medium 😐 (M)
+    Hard 😡(H)
+
+                    Quiz Difficulty:
+        
+        » Easy 😊(E) «          » Medium 😐 (M) «
+
+                    » Hard 😡(H) «
+                    """)
+
             valid_option = True
+            
+            
             # Function prints shop menu.
+        
         elif user_choice == 2:
             print(shop())
             valid_option = True
