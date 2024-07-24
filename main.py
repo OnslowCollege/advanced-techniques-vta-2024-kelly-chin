@@ -76,7 +76,7 @@ while valid_option is False:
     except ValueError:
         print("Invalid option. Please try again.")
 
-    return ("")
+
 
 # Questions to ask user, return the 
 def question() -> str:
