@@ -57,10 +57,9 @@ def difficulty_page() -> str:
 
                     » Hard 😡(H) «
         
-        difficulty_choice = str(input("Enter your choice of level difficulty: ))
-        """)
+""")
 
-difficulty_choice = str(input"Enter your choice of level difficulty: ))
+difficulty_choice = str(input("Enter your choice of level difficulty: "))
 
 while valid_option is False:
     try:
