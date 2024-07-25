@@ -151,6 +151,21 @@ while valid_option is False:
         user_choice = int(input("\nEnter the number of your choice: "))
         if user_choice == 1:
             print(difficulty_page())
+            difficulty_choice = str(input("Enter your choice of level difficulty: "))
+            if difficulty_choice.upper() == "E":
+                # Prints easy trivia questions.
+                print(TRIVIA_QUESTIONS["Easy"])
+                # Prints medium trivia questions.
+            elif difficulty_choice.upper() == "M":
+                print(TRIVIA_QUESTIONS["Medium"])
+                # Prints hard trivia questions.
+            elif difficulty_choice.upper() == "H":
+                print(TRIVIA_QUESTIONS["Hard"])
+            else:
+                print("Invalid choice. Please try again.")
+
+
+                
             valid_option = True
             # Function prints shop menu.
         elif user_choice == 2:
