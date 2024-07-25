@@ -63,21 +63,6 @@ valid_option: bool = False
 
 difficulty_choice = str(input("Enter your choice of level difficulty: "))
 
-if difficulty_choice.upper() == "E":
-    # Prints easy trivia questions.
-    print(TRIVIA_QUESTIONS["Easy"])
-    # Prints medium trivia questions.
-elif difficulty_choice.upper() == "M":
-    print(TRIVIA_QUESTIONS["Medium"])
-    # Prints hard trivia questions.
-elif difficulty_choice.upper() == "H":
-    print(TRIVIA_QUESTIONS["Hard"])
-
-else:
-        print("Invalid choice. Please try again.")
-
-
-
 # Questions to ask user, return the 
 def question() -> str:
     """Asking user a question."""
