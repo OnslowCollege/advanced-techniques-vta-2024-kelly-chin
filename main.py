@@ -58,6 +58,7 @@ def difficulty_page() -> str:
                     » Hard 😡(H) «
         
 """)
+
 # Bool dictates whether if the user input is valid  
 valid_option: bool = False
 
@@ -137,7 +138,8 @@ while valid_option is False:
             difficulty_choice = str(input("Enter your choice of level difficulty: "))
             if difficulty_choice.upper() == "E":
                 # Prints easy trivia questions.
-                print(TRIVIA_QUESTIONS["Easy"])
+                for question in TRIVIA_QUESTIONS:
+                    
                 # Prints medium trivia questions.
             elif difficulty_choice.upper() == "M":
                 print(TRIVIA_QUESTIONS["Medium"])
