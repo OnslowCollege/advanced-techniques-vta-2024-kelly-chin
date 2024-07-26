@@ -61,8 +61,6 @@ def difficulty_page() -> str:
 # Bool dictates whether if the user input is valid  
 valid_option: bool = False
 
-difficulty_choice = str(input("Enter your choice of level difficulty: "))
-
 # Questions to ask user, return the 
 def question() -> str:
     """Asking user a question."""
