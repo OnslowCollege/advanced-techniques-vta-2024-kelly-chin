@@ -146,7 +146,6 @@ while valid_option is False:
                 print(TRIVIA_QUESTIONS["Hard"])
             else:
                 print("Invalid choice. Please try again.")
-
             valid_option = True
             # Function prints shop menu.
         elif user_choice == 2:
