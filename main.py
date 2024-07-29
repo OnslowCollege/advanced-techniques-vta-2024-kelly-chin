@@ -71,8 +71,8 @@ SHOP_ITEMS: dict[str, dict[str, int | int]] = {
 
 # Dictionary of trivia questions, including easy, medium and hard difficulty.
 TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
-    "Easy": {
-        "What country is the largest in the world?": "Russia",
+    "Easy": [
+    {"question": "What country is the largest in the world?": "Russia",
         "Which sport uses the terms, Spare and Strike?": "Bowling",
         "What is the 4th letter in the English alphabet?": "D",
         "What country did french fries originate?": "Belgium",
@@ -83,6 +83,7 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
         "What animal is the fastest in the world?": "Cheetah",
         "Who discovered gravity?": "Isaac Newton",
     },
+    ]
     "Medium": {
         "What country is the only country with a triangular flag?": "Nepal",
         "What is the 6th element in the periodic table?": "Nitrogen",
