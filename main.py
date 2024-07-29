@@ -81,8 +81,7 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
         'What does the fast food chain, "KFC" stand for?': "Kentucky Fried Chicken",
         "What is the name of the Greek Goddess of Love and Beauty?": "Aphrodite",
         "What animal is the fastest in the world?": "Cheetah",
-        "Who discovered gravity?": "Isaac Newton",
-    },
+        "Who discovered gravity?": "Isaac Newton"}
     ]
     "Medium": {
         "What country is the only country with a triangular flag?": "Nepal",
