@@ -51,7 +51,6 @@ valid_option: bool = False
 # Questions to ask user, return the 
 def ask_easy_questions(question) -> str:
     """Asks user easy questions."""
-
 # Prints easy trivia questions.
     for question in TRIVIA_QUESTIONS["Easy"]:
         print(question)
