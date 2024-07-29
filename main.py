@@ -84,7 +84,7 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
         "Who discovered gravity?": "Isaac Newton",
     },
     "Medium": {
-        "What country is the only country with a triangular flag?": "Nepal",
+        "question": "What country is the only country with a triangular flag?": "Nepal",
         "What is the 6th element in the periodic table?": "Nitrogen",
         'Which planet is known as the "Blue Planet"?': "Earth",
         "What do you call baby kangaroos?": "Joey",
