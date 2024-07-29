@@ -56,7 +56,7 @@ def ask_easy_questions(question) -> str:
         print(question)
     user_answer: str = input("Enter your answer here: ")
 
-    return("user input")
+    return("")
 
 # bool dictates whether if program is running.
 program_running: bool = True
