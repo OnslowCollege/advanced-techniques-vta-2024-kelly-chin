@@ -35,22 +35,8 @@ def how_to_play() -> str:
 def difficulty_page() -> str:
     """Print difficulty of quiz game."""
 
-    return ("""                   Quiz Difficulty: 
-    
-    -------------------------------      -------------------------
-    ||          Easy 😊(E)        ||    ||      Medium 😐 (M)   || 
-    -------------------------------      -------------------------
-
-                    -------------------------------------     
-                    ||             Hard 😡(H)           ||    
-                    -------------------------------------  
-
-    Quiz difficulty:
-    
-    Easy 😊(E)
-    Medium 😐 (M)
-    Hard 😡(H)
-
+    return ("""
+        
                     Quiz Difficulty:
         
         » Easy 😊 (E) «          » Medium 😐 (M) «
