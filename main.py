@@ -49,10 +49,10 @@ def difficulty_page() -> str:
 valid_option: bool = False
 
 # Questions to ask user, return the 
-def question() -> str:
+def asking_question(question) -> str:
     """Asking user a question."""
 
-    ask_question: str = input()
+    
     return("user input")
 
 # bool dictates whether if program is running.
