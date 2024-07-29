@@ -51,8 +51,10 @@ valid_option: bool = False
 # Questions to ask user, return the 
 def ask_easy_questions(question) -> str:
     """Asks user easy questions."""
-    
 
+# Prints easy trivia questions.
+    for question in TRIVIA_QUESTIONS["Easy"]:
+        print(question)
 
     return("user input")
 
@@ -126,15 +128,13 @@ while valid_option is False:
             print(difficulty_page())
             difficulty_choice = str(input("Enter your choice of level difficulty: "))
             if difficulty_choice.upper() == "E":
-                # Prints easy trivia questions.
-                for question in TRIVIA_QUESTIONS["Easy"]:
-                    print(question)
+                pass
                 # Prints medium trivia questions.
             elif difficulty_choice.upper() == "M":
-                print(TRIVIA_QUESTIONS["Medium"])
+                pass
                 # Prints hard trivia questions.
             elif difficulty_choice.upper() == "H":
-                print(TRIVIA_QUESTIONS["Hard"])
+                pass
             else:
                 print("Invalid choice. Please try again.")
             valid_option = True
