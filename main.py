@@ -54,7 +54,8 @@ def ask_easy_questions(question) -> str:
 # Prints easy trivia questions.
     for question in TRIVIA_QUESTIONS["Easy"]:
         print(question)
-
+    
+    user_answer: str = input("Answer here: ")
     return("user input")
 
 # bool dictates whether if program is running.
