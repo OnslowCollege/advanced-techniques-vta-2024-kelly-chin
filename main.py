@@ -49,7 +49,7 @@ def difficulty_page() -> str:
 valid_option: bool = False
 
 # Questions to ask user, return the 
-def ask_easy_questions(question) -> str:
+def ask_easy_questions() -> str:
     """Asks user easy questions."""
 
     for question in TRIVIA_QUESTIONS["Easy"]:
