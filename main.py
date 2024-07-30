@@ -64,7 +64,7 @@ def ask_medium_questions() -> str:
     for question in TRIVIA_QUESTIONS["Medium"]:
         print(question)
 
-    return ""
+    return ("")
 
 
 # Function that asks users hard trivia questions.
