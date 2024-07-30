@@ -54,7 +54,6 @@ def ask_easy_questions(question) -> str:
 
     for question in TRIVIA_QUESTIONS["Easy"]:
         print(question)
-    user_answer: str = input("Enter your answer here: ")
 
     return("")
 
@@ -128,7 +127,8 @@ while valid_option is False:
             print(difficulty_page())
             difficulty_choice = str(input("Enter your choice of level difficulty: "))
             if difficulty_choice.upper() == "E":
-                pass
+                # Prints easy questions.
+                print(ask_easy_questions(question))
                 # Prints medium trivia questions.
             elif difficulty_choice.upper() == "M":
                 pass
