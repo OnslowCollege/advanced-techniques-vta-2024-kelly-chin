@@ -74,7 +74,7 @@ def ask_hard_questions() -> str:
     for question in TRIVIA_QUESTIONS["Hard"]:
         print(question)
 
-    return ""
+    return ("")
 
 
 # bool dictates whether if program is running.
