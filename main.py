@@ -125,7 +125,9 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
 
 def quiz_running():
     """Quiz game begins."""
-    diamonds_earnt = 0
+    
+    for question in TRIVIA_QUESTIONS:
+        print(question)
 
 
 # Trivia Quiz game menu.
