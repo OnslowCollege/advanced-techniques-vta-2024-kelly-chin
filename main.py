@@ -123,12 +123,6 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
     },
 }
 
-def quiz_running():
-    """Quiz game begins."""
-    
-    for question in TRIVIA_QUESTIONS:
-        print(question)
-
 
 # Trivia Quiz game menu.
 print("""
