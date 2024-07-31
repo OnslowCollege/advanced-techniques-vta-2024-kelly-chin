@@ -63,7 +63,7 @@ SHOP_ITEMS: dict[str, dict[str, int | int]] = {
 # 2d list for trivia questions.
 
 easy_questions: list[list[str]] = [
-[""]
+["What country is the largest in the world?", "Which sport uses the terms, Spare and Strike?", ]
 
 
 
