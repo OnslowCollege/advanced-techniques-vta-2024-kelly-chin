@@ -70,7 +70,6 @@ def ask_medium_questions() -> str:
 # Function that asks users hard trivia questions.
 def ask_hard_questions() -> str:
     """Asks user easy questions."""
-
     for question in TRIVIA_QUESTIONS["Hard"]:
         print(question)
 
@@ -124,8 +123,10 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
     },
 }
 
-# Diamonds earnt from correct questions answered. 
-diamonds_earnt = 0
+def quiz_running():
+    """Quiz game begins."""
+    diamonds_earnt = 0
+
 
 # Trivia Quiz game menu.
 print("""
