@@ -149,9 +149,9 @@ while valid_option is False:
             difficulty_choice = str(input("Enter your choice of level difficulty: "))
             if difficulty_choice.upper() == "E":
                 # Prints easy questions.
-                for easy_questions in TRIVIA_QUESTIONS:
+                for question in TRIVIA_QUESTIONS:
                     print("☆------------------------☆")
-                    print(easy_questions)
+                    print(question)
                 
                 user_answer = input("Answer here: ")
                 # Prints medium trivia questions.
