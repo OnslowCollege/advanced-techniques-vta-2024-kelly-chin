@@ -4,6 +4,7 @@ Trivia Quiz game || Project Management.
 Created by: Kelly
 Date: 6/06/2024
 """
+
 # Function prints shop items.
 def shop() -> str:
     """Print a shop."""
@@ -86,6 +87,7 @@ SHOP_ITEMS: dict[str, dict[str, int | int]] = {
     "item 3": {"Price": 750, "Quantity Owned": 0},
     "item 4": {"Price": 1000, "Quantity Owned": 0},
 }
+
 
 # Dictionary of trivia questions, including easy, medium and hard difficulty.
 TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
