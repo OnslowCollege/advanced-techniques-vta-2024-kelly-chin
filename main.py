@@ -52,9 +52,7 @@ valid_option: bool = False
 # Function that asks users easy trivia questions.
 def ask_easy_questions() -> str:
     """Asks user easy questions."""
-
-    for question in QUESTIONS:
-        print(question)
+    print(QUESTIONS["Easy"])
 
     return("")
 
