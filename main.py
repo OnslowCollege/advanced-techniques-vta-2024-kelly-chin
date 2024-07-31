@@ -61,7 +61,7 @@ SHOP_ITEMS: dict[str, dict[str, int | int]] = {
 }
 
 # Dictionary of trivia questions, including easy, medium and hard difficulty.
-QUESTIONS: dict[str, dict[str, str]] = {
+TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
     "Easy": {
         "What country is the largest in the world?": "Russia",
         "Which sport uses the terms, Spare and Strike?": "Bowling",
@@ -99,8 +99,8 @@ QUESTIONS: dict[str, dict[str, str]] = {
 # Function that asks users easy trivia questions.
 def ask_easy_questions() -> str:
     """Asks user easy questions."""
-    for question in QUESTIONS:
-        print(QUESTIONS[questions])
+    for question in TRIVIA_QUESTIONS:
+        print(TRIVIA_QUESTIONS[question])
 
     return("")
 
@@ -108,7 +108,7 @@ def ask_easy_questions() -> str:
 def ask_medium_questions() -> str:
     """Asks user easy questions."""
 
-    for question in QUESTIONS["Medium"]:
+    for question in TRIVIA_QUESTIONS:
         print(question)
 
     return ("")
@@ -117,7 +117,7 @@ def ask_medium_questions() -> str:
 # Function that asks users hard trivia questions.
 def ask_hard_questions() -> str:
     """Asks user easy questions."""
-    for question in QUESTIONS["Hard"]:
+    for question in TRIVIA_QUESTIONS:
         print(question)
 
     return ("")
