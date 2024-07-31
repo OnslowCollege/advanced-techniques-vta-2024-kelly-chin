@@ -95,29 +95,7 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
         'What character did Eliza Taylor play in the TV series, "The 100"?': "Clarke Griffins",
     },
 }
-# Function that asks users easy trivia questions.
-def ask_easy_questions() -> str:
-    """Asks user easy questions."""
-    for question in "Easy":
-        print(TRIVIA_QUESTIONS[question])
 
-    return("")
-
-# Function that asks users medium trivia questions.
-def ask_medium_questions() -> str:
-    """Asks user easy questions."""
-    print(TRIVIA_QUESTIONS["Medium"])
-
-    return ("")
-
-
-# Function that asks users hard trivia questions.
-def ask_hard_questions() -> str:
-    """Asks user easy questions."""
-    for question in TRIVIA_QUESTIONS:
-        print(question)
-
-    return ("")
 # Score counter and number of guesses for the user. 
 score = 0
 guesses = 0
@@ -146,14 +124,14 @@ while valid_option is False:
             difficulty_choice = str(input("Enter your choice of level difficulty: "))
             if difficulty_choice.upper() == "E":
                 # Prints easy questions.
-                print(ask_easy_questions())
+                
                 user_answer = input("Answer here: ")
                 # Prints medium trivia questions.
             elif difficulty_choice.upper() == "M":
-                print(ask_medium_questions())
+                pass
                 # Prints hard trivia questions.
             elif difficulty_choice.upper() == "H":
-                print(ask_hard_questions())
+                pass
             else:
                 print("Invalid choice. Please try again.")
             valid_option = True
