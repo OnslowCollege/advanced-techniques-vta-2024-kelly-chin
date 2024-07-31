@@ -125,10 +125,6 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
     },
 }
 
-EASY_QUESTIONS: dict[str, dict[str, str]] = {
-    
-}
-
 
 
 # Trivia Quiz game menu.
