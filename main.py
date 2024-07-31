@@ -53,7 +53,7 @@ valid_option: bool = False
 def ask_easy_questions() -> str:
     """Asks user easy questions."""
 
-    for question in QUESTIONS["Easy"]:
+    for question in QUESTIONS:
         print(question)
 
     return("")
