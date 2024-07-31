@@ -53,7 +53,7 @@ valid_option: bool = False
 def ask_easy_questions() -> str:
     """Asks user easy questions."""
 
-    for question in TRIVIA_QUESTIONS["Easy"]:
+    for question in QUESTIONS["Easy"]:
         print(question)
 
     return("")
@@ -62,7 +62,7 @@ def ask_easy_questions() -> str:
 def ask_medium_questions() -> str:
     """Asks user easy questions."""
 
-    for question in TRIVIA_QUESTIONS["Medium"]:
+    for question in QUESTIONS["Medium"]:
         print(question)
 
     return ("")
@@ -71,7 +71,7 @@ def ask_medium_questions() -> str:
 # Function that asks users hard trivia questions.
 def ask_hard_questions() -> str:
     """Asks user easy questions."""
-    for question in TRIVIA_QUESTIONS["Hard"]:
+    for question in QUESTIONS["Hard"]:
         print(question)
 
     return ("")
@@ -90,7 +90,7 @@ SHOP_ITEMS: dict[str, dict[str, int | int]] = {
 
 
 # Dictionary of trivia questions, including easy, medium and hard difficulty.
-TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
+QUESTIONS: dict[str, dict[str, str]] = {
     "Easy questions": {
         "What country is the largest in the world?": "Russia",
         "Which sport uses the terms, Spare and Strike?": "Bowling",
@@ -124,6 +124,10 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
         'What character did Eliza Taylor play in the TV series, "The 100"?': "Clarke Griffins",
     },
 }
+# Score counter and number of guesses for the user. 
+score = 0
+guesses = 0
+question_num = 0 
 
 # Trivia Quiz game menu.
 print("""
@@ -139,11 +143,6 @@ print("""
     """)
 
 
-score = 0
-user_choice: int = 0
-guesses = 0
-question_num = 0 
-
 # Valid option remains True until user enters invalid choice. 
 while valid_option is False:
     try:
@@ -153,9 +152,7 @@ while valid_option is False:
             difficulty_choice = str(input("Enter your choice of level difficulty: "))
             if difficulty_choice.upper() == "E":
                 # Prints easy questions.
-                for question in TRIVIA_QUESTIONS:
-                    print("☆------------------------☆")
-                    print(question)
+                print(ask_easy_questions())
                 
                 user_answer = input("Answer here: ")
                 # Prints medium trivia questions.
