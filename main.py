@@ -63,7 +63,17 @@ SHOP_ITEMS: dict[str, dict[str, int | int]] = {
 # 2d list for trivia questions.
 
 easy_questions: list[list[str]] = [
-["What country is the largest in the world?", "Which sport uses the terms, Spare and Strike?", ]
+["What country is the largest in the world?","Russia"]
+["What is the 4th letter in the English alphabet?", "D"]
+["What country did french fries originate?", "Belgium"]
+["Which galaxy do we live in?", "The Milky Way"]
+["What element do humans need to survive?", "Oxygen"]
+['What does the fast food chain, "KFC" stand for?', "Kentucky Fried Chicken"]
+["What is the name of the Greek Goddess of Love and Beauty?", "Aphrodite"]
+["What animal is the fastest in the world?", "Cheetah"]
+["Who discovered gravity?", "Issac Newton"]
+[]
+[]
 
 
 
