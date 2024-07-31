@@ -153,7 +153,6 @@ while valid_option is False:
             if difficulty_choice.upper() == "E":
                 # Prints easy questions.
                 print(ask_easy_questions())
-                user_answer = input("Answer here: ")
                 # Prints medium trivia questions.
             elif difficulty_choice.upper() == "M":
                 print(ask_medium_questions())
