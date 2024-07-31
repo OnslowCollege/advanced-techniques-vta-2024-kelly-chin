@@ -107,9 +107,7 @@ def ask_easy_questions() -> str:
 # Function that asks users medium trivia questions.
 def ask_medium_questions() -> str:
     """Asks user easy questions."""
-
-    for question in TRIVIA_QUESTIONS:
-        print(question)
+    print(TRIVIA_QUESTIONS["Easy"])
 
     return ("")
 
