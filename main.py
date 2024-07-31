@@ -99,7 +99,8 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
 # Function that asks users easy trivia questions.
 def ask_easy_questions() -> str:
     """Asks user easy questions."""
-    print(TRIVIA_QUESTIONS["Easy"])
+    for question in TRIVIA_QUESTIONS["Easy"]:
+        print(TRIVIA_QUESTIONS[question])
 
     return("")
 
