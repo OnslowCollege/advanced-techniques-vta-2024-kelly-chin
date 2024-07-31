@@ -125,8 +125,9 @@ while valid_option is False:
             if difficulty_choice.upper() == "E":
                 # Prints easy questions.
                 for question in TRIVIA_QUESTIONS:
-                    
+                    print(TRIVIA_QUESTIONS[question])
                 user_answer = input("Answer here: ")
+                
                 # Prints medium trivia questions.
             elif difficulty_choice.upper() == "M":
                 pass
