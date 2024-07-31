@@ -125,8 +125,6 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
     },
 }
 
-
-
 # Trivia Quiz game menu.
 print("""
                     Trivia Quiz Game!
@@ -141,7 +139,11 @@ print("""
     """)
 
 
+score = 0
 user_choice: int = 0
+guesses = 0
+question_num = 0 
+
 # Valid option remains True until user enters invalid choice. 
 while valid_option is False:
     try:
