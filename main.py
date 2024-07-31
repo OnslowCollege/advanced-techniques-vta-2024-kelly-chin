@@ -60,7 +60,6 @@ SHOP_ITEMS: dict[str, dict[str, int | int]] = {
     "item 4": {"Price": 1000, "Quantity Owned": 0},
 }
 
-
 # Dictionary of trivia questions, including easy, medium and hard difficulty.
 QUESTIONS: dict[str, dict[str, str]] = {
     "Easy": {
