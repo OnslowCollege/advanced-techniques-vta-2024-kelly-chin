@@ -89,7 +89,7 @@ SHOP_ITEMS: dict[str, dict[str, int | int]] = {
 
 # Dictionary of trivia questions, including easy, medium and hard difficulty.
 TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
-    "Easy": {
+    "Easy questions": {
         "What country is the largest in the world?": "Russia",
         "Which sport uses the terms, Spare and Strike?": "Bowling",
         "What is the 4th letter in the English alphabet?": "D",
@@ -101,7 +101,7 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
         "What animal is the fastest in the world?": "Cheetah",
         "Who discovered gravity?": "Isaac Newton",
     },
-    "Medium": {
+    "Medium questions": {
         "What country is the only country with a triangular flag?": "Nepal",
         "What is the 6th element in the periodic table?": "Nitrogen",
         'Which planet is known as the "Blue Planet"?': "Earth",
@@ -111,7 +111,7 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
         "Which volcano in Indonesia caused the loudest sound in history?": "Krakatoa",
         "What organ is the largest in the human body?": "Skin",
     },
-    "Hard": {
+    "Hard questions": {
         'In the film "Dead Poets Society", which actor played "Neil Perry?"': "Robert Sean Leonard",
         "What is the only parrot that cannot fly?": "Kakapo",
         "Which Asian country fought in 7 deadliests wars in history?": "China",
