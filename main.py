@@ -124,6 +124,7 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
     },
 }
 
+
 # Trivia Quiz game menu.
 print("""
                     Trivia Quiz Game!
