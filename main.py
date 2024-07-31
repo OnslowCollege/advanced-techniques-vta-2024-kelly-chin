@@ -124,6 +124,8 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
     },
 }
 
+# Score counter for the number of questions correctly answered. 
+score = 0
 
 # Trivia Quiz game menu.
 print("""
