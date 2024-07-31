@@ -49,33 +49,6 @@ def difficulty_page() -> str:
 # Bool dictates whether if the user input is valid  
 valid_option: bool = False
 
-# Function that asks users easy trivia questions.
-def ask_easy_questions() -> str:
-    """Asks user easy questions."""
-    for question in QUESTIONS:
-        print(QUESTIONS[questions])
-
-    return("")
-
-# Function that asks users medium trivia questions.
-def ask_medium_questions() -> str:
-    """Asks user easy questions."""
-
-    for question in QUESTIONS["Medium"]:
-        print(question)
-
-    return ("")
-
-
-# Function that asks users hard trivia questions.
-def ask_hard_questions() -> str:
-    """Asks user easy questions."""
-    for question in QUESTIONS["Hard"]:
-        print(question)
-
-    return ("")
-
-
 # bool dictates whether if program is running.
 program_running: bool = True
 
@@ -123,6 +96,32 @@ QUESTIONS: dict[str, dict[str, str]] = {
         'What character did Eliza Taylor play in the TV series, "The 100"?': "Clarke Griffins",
     },
 }
+
+# Function that asks users easy trivia questions.
+def ask_easy_questions() -> str:
+    """Asks user easy questions."""
+    for question in QUESTIONS:
+        print(QUESTIONS[questions])
+
+    return("")
+
+# Function that asks users medium trivia questions.
+def ask_medium_questions() -> str:
+    """Asks user easy questions."""
+
+    for question in QUESTIONS["Medium"]:
+        print(question)
+
+    return ("")
+
+
+# Function that asks users hard trivia questions.
+def ask_hard_questions() -> str:
+    """Asks user easy questions."""
+    for question in QUESTIONS["Hard"]:
+        print(question)
+
+    return ("")
 # Score counter and number of guesses for the user. 
 score = 0
 guesses = 0
