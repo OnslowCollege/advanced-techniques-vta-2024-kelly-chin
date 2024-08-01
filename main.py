@@ -158,10 +158,13 @@ while valid_option is False:
                     print(question)
                     medium_guess = input("Enter your guess/answer here: ")
                     guesses.append(medium_guess)
-                    
+
                 # Prints hard trivia questions.
             elif difficulty_choice.upper() == "H":
-                print(ask_hard_questions())
+                for question in TRIVIA_QUESTIONS["Hard"]:
+                    print("☆-----------------------☆")
+                    print(question)
+                    hard_guess = input("Enter your guess/answer here: ")
             else:
                 print("Invalid choice. Please try again.")
             valid_option = True
