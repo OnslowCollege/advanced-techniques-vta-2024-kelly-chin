@@ -155,7 +155,7 @@ while valid_option is False:
                 for question in TRIVIA_QUESTIONS["Medium"]:
                     print("☆-----------------------☆")
                     print(question)
-                    medium_guess = input("Enter your guess/answer here: ")
+                    medium_guess = input("Enter your guess/answer here: ").upper()
                     guesses.append(medium_guess)
 
                 # Prints hard trivia questions.
@@ -163,7 +163,7 @@ while valid_option is False:
                 for question in TRIVIA_QUESTIONS["Hard"]:
                     print("☆-----------------------☆")
                     print(question)
-                    hard_guess = input("Enter your guess/answer here: ")
+                    hard_guess = input("Enter your guess/answer here: ").upper()
             else:
                 print("Invalid choice. Please try again.")
             valid_option = True
