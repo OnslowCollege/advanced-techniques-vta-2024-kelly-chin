@@ -45,27 +45,6 @@ def difficulty_page() -> str:
                     » Hard 😡 (H) «
         
 """)
-# Function that asks users easy trivia questions.
-def ask_easy_questions() -> str:
-    """Asks user easy questions."""
-    for question in TRIVIA_QUESTIONS["Easy"]:
-        print(question)
-    return("")
-
-
-# Function that asks users medium trivia questions.
-def ask_medium_questions() -> str:
-    """Asks user easy questions."""
-    for question in TRIVIA_QUESTIONS["Medium"]:
-        print(question)
-    return ("")
-
-# Function that asks users hard trivia questions.
-def ask_hard_questions() -> str:
-    """Asks user easy questions."""
-    for question in TRIVIA_QUESTIONS["Hard"]:
-        print(question)
-    return ("")
 
 # Bool dictates whether if the user input is valid  
 valid_option: bool = False
