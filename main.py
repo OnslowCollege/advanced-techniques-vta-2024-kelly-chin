@@ -120,8 +120,8 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
 
 # Score counter and number of guesses for the user. 
 score: int = 0
-guesses: int = 0
-question_num: int = 0 
+guesses = []
+question_number: int = 0 
 
 # Trivia Quiz game menu.
 print("""
@@ -148,7 +148,13 @@ while valid_option is False:
                 # Prints easy questions.
                 print(ask_easy_questions())
                 for question in TRIVIA_QUESTIONS["Easy"]:
+                    print("☆-----------------------☆")
+                    print(question)
                     user_guess = input("Enter your guess/answer here: ")
+                    
+                    guesses.append(user_guess)
+                    question_number += 1
+
                 
                 # Prints medium trivia questions.
             elif difficulty_choice.upper() == "M":
