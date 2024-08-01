@@ -149,8 +149,7 @@ while valid_option is False:
                     print("☆-----------------------☆")
                     print(question)
                     easy_guess = input("Enter your guess/answer here: ")
-                    guesses.append(easy_guess)
-                    question_number += 1
+
                 # Prints medium trivia questions.
             elif difficulty_choice.upper() == "M":
                 for question in TRIVIA_QUESTIONS["Medium"]:
