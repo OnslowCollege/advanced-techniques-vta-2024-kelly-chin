@@ -123,19 +123,20 @@ while valid_option is False:
             print(difficulty_page())
             difficulty_choice = str(input("Enter level difficulty: "))
             if difficulty_choice.upper() == "E":
-                # Prints easy questions.
+                # Prints easy questions individually for user to answer.
                 for question in TRIVIA_QUESTIONS["Easy"]:
                     print("☆-----------------------☆")
                     print(question)
+                    question_number += 1
                     easy_guess = input("Enter your guess/answer here: ").upper()
-                # Prints medium trivia questions.
+                # Prints medium trivia questions individually.
             elif difficulty_choice.upper() == "M":
                 for question in TRIVIA_QUESTIONS["Medium"]:
                     print("☆-----------------------☆")
                     print(question)
                     medium_guess = input("Enter your guess/answer here: ").upper()
                     guesses.append(medium_guess)
-                # Prints hard trivia questions.
+                # Prints hard trivia questions individually. 
             elif difficulty_choice.upper() == "H":
                 for question in TRIVIA_QUESTIONS["Hard"]:
                     print("☆-----------------------☆")
