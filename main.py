@@ -148,7 +148,6 @@ while valid_option is False:
                 # Prints easy questions.
                 print(ask_easy_questions())
                 for question in TRIVIA_QUESTIONS["Easy"]:
-                    
                     user_guess = input("Enter your guess/answer here: ")
                 
                 # Prints medium trivia questions.
