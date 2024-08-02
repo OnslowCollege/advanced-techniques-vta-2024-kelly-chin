@@ -46,6 +46,10 @@ def difficulty_page() -> str:
         
 """)
 
+def answer_check() -> str:
+    """Checks whether if user had answered question correctly."""
+
+
 # Bool dictates whether if the user input is valid  
 valid_option: bool = False
 
@@ -129,6 +133,7 @@ while valid_option is False:
                     print(question)
                     question_number += 1
                     easy_guess = input("Enter your guess/answer here: ").upper()
+
                 # Prints medium trivia questions individually.
             elif difficulty_choice.upper() == "M":
                 for question in TRIVIA_QUESTIONS["Medium"]:
