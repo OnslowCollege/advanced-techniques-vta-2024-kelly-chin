@@ -142,7 +142,7 @@ while valid_option is False:
                     print("☆-----------------------☆")
                     print(question)
                     hard_guess = input("Enter your guess/answer here: ").upper()
-                    
+
             else:
                 print("Invalid choice. Please try again.")
             valid_option = True
