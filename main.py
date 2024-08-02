@@ -133,9 +133,10 @@ while valid_option is False:
                     for answer in TRIVIA_QUESTIONS.values():
                         
                         if easy_guess == answer:
-                            print("That is correct! You earnt 10💎!")
+                            print("✅ Correct! You earnt 10💎!")
                             diamond_count += 10
-                        elif easy_guess
+                        elif easy_guess != answer:
+                            print(f"❌Incorrect! The answer is {answer}!")
 
                 # Prints medium trivia questions individually.
             elif difficulty_choice.upper() == "M":
