@@ -47,7 +47,7 @@ def difficulty_page() -> str:
 """)
 
 def answer_check() -> str:
-    """Checks whether if user had answered question correctly."""
+    """Check whether if user had answered question correctly."""
 
 
 # Bool dictates whether if the user input is valid  
