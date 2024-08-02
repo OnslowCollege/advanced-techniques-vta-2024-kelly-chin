@@ -48,7 +48,8 @@ def difficulty_page() -> str:
 
 def answer_check() -> str:
     """Check whether if user had answered question correctly."""
-
+guess: str = input("Enter your guess here: ")
+if guess == answer
 
 # Bool dictates whether if the user input is valid  
 valid_option: bool = False
