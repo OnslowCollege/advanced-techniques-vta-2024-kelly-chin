@@ -51,6 +51,7 @@ def answer_check() -> str:
 guess: str = input("Enter your guess here: ")
 if guess ==
 
+
 # Bool dictates whether if the user input is valid  
 valid_option: bool = False
 
