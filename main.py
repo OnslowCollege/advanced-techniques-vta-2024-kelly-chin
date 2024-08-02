@@ -52,7 +52,6 @@ guess: str = input("Enter your guess here: ")
 
 
 
-
 # Bool dictates whether if the user input is valid  
 valid_option: bool = False
 
