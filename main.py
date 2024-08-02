@@ -98,7 +98,7 @@ TRIVIA_QUESTIONS: dict[str, dict[str, str]] = {
 }
 
 # Score counter and number of guesses for the user. 
-score: int = 0
+diamond_count: int = 0
 guesses = []
 question_number: int = 0 
 
@@ -131,9 +131,11 @@ while valid_option is False:
                     question_number += 1
                     easy_guess = input("Enter your guess/answer here: ").upper()
                     for answer in TRIVIA_QUESTIONS.values():
+                        
                         if easy_guess == answer:
                             print("That is correct! You earnt 10💎!")
-
+                            diamond_count += 10
+                        
 
                 # Prints medium trivia questions individually.
             elif difficulty_choice.upper() == "M":
