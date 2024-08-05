@@ -134,7 +134,7 @@ while valid_option is False:
                         if easy_guess == answer:
                             print("✅ Correct! You earnt 10💎!")
                             diamond_count += 10
-                        elif easy_guess != answer:
+                        else:
                             print(f"❌Incorrect! The answer is {answer}!")
 
                 # Prints medium trivia questions individually.
