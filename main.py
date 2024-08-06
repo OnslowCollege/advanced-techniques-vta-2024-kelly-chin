@@ -136,7 +136,7 @@ while valid_option is False:
                             print("✅ Correct! You earnt 10💎!")
                             diamond_count += 10
                         else:
-                            print(f"❌Incorrect! The answer is {answer}!")
+                            print(f"❌ Incorrect! The answer is {answer}!")
                 # Prints medium trivia questions individually.
             elif difficulty_choice.upper() == "M":
                 for question in TRIVIA_QUESTIONS["Medium"]:
@@ -151,7 +151,7 @@ while valid_option is False:
                     print(question)
                     hard_guess = input("Enter your guess/answer here: ").upper()
                     guesses.append(hard_guess)
-                    
+
             else:
                 print("Invalid choice. Please try again.")
             valid_option = True
