@@ -69,74 +69,74 @@ SHOP_ITEMS: dict[str, dict[str, int | int]] = {
 # Dictionary of trivia questions, including easy, medium and hard difficulty.
 TRIVIA_QUESTIONS = {
     "Easy": {
-        {
+        1:{
             "question": "What country is the largest in the world?",
             "answer": "Russia",
         },
-        {
+        2:{
             "question": "Which sport uses the terms, Spare and Strike?",
             "answer": "Bowling",
         },
-        {
+        3:{
             "question": "What is the 4th letter in the English alphabet?",
             "answer": "D",
         },
-        {
+        4:{
             "question": "What country did french fries originate?",
             "answer": "Belgium",
         },
-        {"question": "Which galaxy do we live in?", "answer": "The Milky Way"},
-        {
+        5:{"question": "Which galaxy do we live in?", "answer": "The Milky Way"},
+        6:{
             "question": "What element do humans need to survive?",
             "answer": "Oxygen",
         },
-        {
+        7:{
             "question": 'What does fast food chain, "KFC" stand for?',
             "answer": "Kentucky Fried Chicken",
         },
-        {
+        8:{
             "question": "What is the name of the Greek Goddess of Love and Beauty?",
             "answer": "Aphrodite",
         },
-        {
+        9:{
             "question": "What animal is the fastest in the world?",
             "answer": "Cheetah",
         },
-        {"question": "Who discovered gravity?", "answer": "Isaac Newton"},
+        10:{"question": "Who discovered gravity?", "answer": "Isaac Newton"},
     },
     "Medium": {
-        {
+        1:{
             "question": "What country is the only country with a triangular flag?",
             "answer": "Nepal",
         },
-        {
+        2:{
             "question": "What is the 6th element in the periodic table?",
             "answer": "Nitrogen",
         },
-        {
+        3:{
             "question": 'Which planet is known as the "Blue Planet"?',
             "answer": "Earth",
         },
-        {"question": "What do you call baby kangaroos?", "answer": "Joey"},
-        {
+        4:{"question": "What do you call baby kangaroos?", "answer": "Joey"},
+        5:{
             "question": 'What year did the "y2k" problem occur?',
             "answer": "2000",
         },
-        {
+        6:{
             "question": "What language did the ancient Romans speak?",
             "answer": "Latin",
         },
-        {
+        7:{
             "question": "Which volcano in Indonesia caused the loudest sound in history?",
             "answer": "Krakatoa",
         },
-        {
+        8:{
             "question": "What organ is the largest in the human body?",
             "answer": "Skin",
         },
     },
     "Hard": {
-        {
+        1:{
             "question": 'In the film "Dead Poets Society"(1989), who played "Neil Perry?"',
             "answer": "Robert Sean Leonard",
         },
