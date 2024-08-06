@@ -94,11 +94,10 @@ TRIVIA_QUESTIONS = {
     {"question":"How many hearts does an octopus have?", "answer":"3"},
     {"question":"Which country is the only one that has the bible on their flag?", "answer":"Dominician Republic"},
     {"question":'Which greek philosopher famously said, "Man is the measure of all things?', "answer":"Protogoras"},
-    {"question": "What shark species was the largest to have ever lived?", "answer": "Megalodon"},
-    'What character did Eliza Taylor play in the TV series, "The 100"?': "Clarke Griffins",
-},
+    {"question":"What shark species was the largest to have ever lived?", "answer": "Megalodon"},
+    {"question":'What character did Eliza Taylor play in the TV series, "The 100"?', "answer": "Clarke Griffins"}
+    },
 }
-
 # Score counter and number of guesses for the user. 
 diamond_count: int = 0
 guesses = []
@@ -116,7 +115,6 @@ print("""
     || How to play instructions 📜 (3) ||    ||    Exit Game 🏃 (4) || 
     -------------------------------------     -------------------------
     """)
-
 
 # Valid option remains True until user enters invalid choice. 
 while valid_option is False:
