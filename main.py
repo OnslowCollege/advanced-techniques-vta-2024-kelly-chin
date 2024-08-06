@@ -140,28 +140,28 @@ TRIVIA_QUESTIONS = {
             "question": 'In the film "Dead Poets Society"(1989), who played "Neil Perry?"',
             "answer": "Robert Sean Leonard",
         },
-        {
+        2:{
             "question": "What is the only parrot that cannot fly?",
             "answer": "Kakapo",
         },
-        {
+        3:{
             "question": "Which Asian country fought in 7 deadliests wars in history?",
             "answer": "China",
         },
-        {"question": "How many hearts does an octopus have?", "answer": "3"},
-        {
+        4:{"question": "How many hearts does an octopus have?", "answer": "3"},
+        5:{
             "question": "Which country is the only one that has the bible on their flag?",
             "answer": "Dominician Republic",
         },
-        {
+        6:{
             "question": 'Which greek philosopher famously said, "Man is the measure of all things?',
             "answer": "Protogoras",
         },
-        {
+        7:{
             "question": "What shark species was the largest to have ever lived?",
             "answer": "Megalodon",
         },
-        {
+        8:{
             "question": 'What character did Eliza Taylor play in the TV series, "The 100"?',
             "answer": "Clarke Griffins",
         },
