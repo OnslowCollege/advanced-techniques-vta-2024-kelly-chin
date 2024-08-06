@@ -84,8 +84,8 @@ TRIVIA_QUESTIONS = {
     {"question":'What year did the "y2k" problem occur?', "answer": "2000"},
     {"question":"What language did the ancient Romans speak?", "answer": "Latin"},
     {"question":"Which volcano in Indonesia caused the loudest sound in history?", "answer": "Krakatoa"},
-    {"question":"What organ is the largest in the human body?", "answer": "Skin"},
-    },
+    {"question":"What organ is the largest in the human body?", "answer":"Skin"},
+},
     "Hard": {
     {"question":'In the film "Dead Poets Society"(1989), who played "Neil Perry?"', 
     "answer":"Robert Sean Leonard"},
@@ -95,8 +95,8 @@ TRIVIA_QUESTIONS = {
     {"question":"Which country is the only one that has the bible on their flag?", "answer":"Dominician Republic"},
     {"question":'Which greek philosopher famously said, "Man is the measure of all things?', "answer":"Protogoras"},
     {"question":"What shark species was the largest to have ever lived?", "answer": "Megalodon"},
-    {"question":'What character did Eliza Taylor play in the TV series, "The 100"?', "answer": "Clarke Griffins"}
-    },
+    {"question":'What character did Eliza Taylor play in the TV series, "The 100"?', "answer":"Clarke Griffins"}
+},
 }
 # Score counter and number of guesses for the user. 
 diamond_count: int = 0
