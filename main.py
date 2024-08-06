@@ -63,17 +63,17 @@ SHOP_ITEMS: dict[str, dict[str, int | int]] = {
 
 # Dictionary of trivia questions, including easy, medium and hard difficulty.
 TRIVIA_QUESTIONS = {
-    "Easy": {
-        {"question": "What country is the largest in the world?", "answer": "Russia"},
-        {"question": "Which sport uses the terms, Spare and Strike?": "Bowling"},
-        "What is the 4th letter in the English alphabet?": "D",
-        "What country did french fries originate?": "Belgium",
-        "Which galaxy do we live in?": "The Milky Way",
-        "What element do humans need to survive?": "Oxygen",
-        'What does the fast food chain, "KFC" stand for?': "Kentucky Fried Chicken",
-        "What is the name of the Greek Goddess of Love and Beauty?": "Aphrodite",
-        "What animal is the fastest in the world?": "Cheetah",
-        "Who discovered gravity?": "Isaac Newton",
+"Easy": {
+    {"question": "What country is the largest in the world?", "answer": "Russia"},
+    {"question": "Which sport uses the terms, Spare and Strike?", "answer": "Bowling"},
+    {"question": "What is the 4th letter in the English alphabet?", "answer": "D"},
+    {"question": "What country did french fries originate?", "answer": "Belgium"},
+    {"question": "Which galaxy do we live in?": "The Milky Way",
+    "What element do humans need to survive?": "Oxygen",
+    'What does the fast food chain, "KFC" stand for?': "Kentucky Fried Chicken",
+    "What is the name of the Greek Goddess of Love and Beauty?": "Aphrodite",
+    "What animal is the fastest in the world?": "Cheetah",
+    "Who discovered gravity?": "Isaac Newton",
     },
     "Medium": {
         "What country is the only country with a triangular flag?": "Nepal",
