@@ -89,8 +89,8 @@ TRIVIA_QUESTIONS = {
     "Hard": {
         {"question":'In the film "Dead Poets Society", which actor played "Neil Perry?"', "answer":"Robert Sean Leonard"},
         {"question":"What is the only parrot that cannot fly?", "answer":"Kakapo"},
-        {"questions":"Which Asian country fought in 7 deadliests wars in history?", "answer": "China"},
-        {"question"How many hearts does an octopus have?": "3",
+        {"question":"Which Asian country fought in 7 deadliests wars in history?", "answer": "China"},
+        {"question":"How many hearts does an octopus have?": "3",
         "Which country is the only one that has the bible on their flag?": "Dominician Republic",
         'Which greek philosopher famously said, "Man is the measure of all things?': "Protogoras",
         "What shark species was the largest to have ever lived?": "Megalodon",
