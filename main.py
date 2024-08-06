@@ -130,6 +130,7 @@ while valid_option is False:
                     print(question)
                     question_number += 1
                     easy_guess = input("Enter your guess/answer here: ").upper()
+                    guesses.append(easy_guess)
                     for answer in TRIVIA_QUESTIONS.values():
                         if easy_guess == answer:
                             print("✅ Correct! You earnt 10💎!")
@@ -149,7 +150,7 @@ while valid_option is False:
                     print("☆-----------------------☆")
                     print(question)
                     hard_guess = input("Enter your guess/answer here: ").upper()
-                    
+                    guesses.append(hard_guess)
             else:
                 print("Invalid choice. Please try again.")
             valid_option = True
