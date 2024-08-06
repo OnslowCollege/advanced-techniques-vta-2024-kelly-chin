@@ -196,6 +196,8 @@ while valid_option is False:
                     question_number += 1
                     easy_guess = input("Enter your guess/answer here: ").upper()
                     guesses.append(easy_guess)
+                    # If answer is correct, user earns 10 diamonds.
+                    # If answer is incorrect, answer is returned to user.
                     for answer in TRIVIA_QUESTIONS.values():
                         if easy_guess == answer:
                             print("✅ Correct! You earnt 10💎!")
