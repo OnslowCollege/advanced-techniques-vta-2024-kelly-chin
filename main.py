@@ -53,6 +53,11 @@ valid_option: bool = False
 # bool dictates whether if program is running.
 program_running: bool = True
 
+# Score counter and number of guesses for the user.
+diamond_count: int = 0
+guesses = []
+question_number: int = 0
+
 # Stores shop items from a dictionary.
 SHOP_ITEMS: dict[str, dict[str, int | int]] = {
     "Small Ruby of the King's Crown": {"Price": 250, "Quantity Owned": 0},
@@ -63,45 +68,105 @@ SHOP_ITEMS: dict[str, dict[str, int | int]] = {
 
 # Dictionary of trivia questions, including easy, medium and hard difficulty.
 TRIVIA_QUESTIONS = {
-"Easy": {
-    {"question":"What country is the largest in the world?", "answer": "Russia"},
-    {"question":"Which sport uses the terms, Spare and Strike?", "answer": "Bowling"},
-    {"question":"What is the 4th letter in the English alphabet?", "answer": "D"},
-    {"question":"What country did french fries originate?", "answer": "Belgium"},
-    {"question":"Which galaxy do we live in?", "answer": "The Milky Way"},
-    {"question":"What element do humans need to survive?", "answer": "Oxygen"},
-    {"question":'What does fast food chain, "KFC" stand for?', "answer": "Kentucky Fried Chicken"},
-    {"question":"What is the name of the Greek Goddess of Love and Beauty?", "answer": "Aphrodite"},
-    {"question":"What animal is the fastest in the world?", "answer": "Cheetah"},
-    {"question":"Who discovered gravity?", "answer": "Isaac Newton"}
+    "Easy": {
+        {
+            "question": "What country is the largest in the world?",
+            "answer": "Russia",
+        },
+        {
+            "question": "Which sport uses the terms, Spare and Strike?",
+            "answer": "Bowling",
+        },
+        {
+            "question": "What is the 4th letter in the English alphabet?",
+            "answer": "D",
+        },
+        {
+            "question": "What country did french fries originate?",
+            "answer": "Belgium",
+        },
+        {"question": "Which galaxy do we live in?", "answer": "The Milky Way"},
+        {
+            "question": "What element do humans need to survive?",
+            "answer": "Oxygen",
+        },
+        {
+            "question": 'What does fast food chain, "KFC" stand for?',
+            "answer": "Kentucky Fried Chicken",
+        },
+        {
+            "question": "What is the name of the Greek Goddess of Love and Beauty?",
+            "answer": "Aphrodite",
+        },
+        {
+            "question": "What animal is the fastest in the world?",
+            "answer": "Cheetah",
+        },
+        {"question": "Who discovered gravity?", "answer": "Isaac Newton"},
     },
-
     "Medium": {
-    {"question":"What country is the only country with a triangular flag?", "answer": "Nepal"},
-    {"question":"What is the 6th element in the periodic table?", "answer": "Nitrogen"},
-    {"question":'Which planet is known as the "Blue Planet"?', "answer": "Earth"},
-    {"question":"What do you call baby kangaroos?", "answer": "Joey"},
-    {"question":'What year did the "y2k" problem occur?', "answer": "2000"},
-    {"question":"What language did the ancient Romans speak?", "answer": "Latin"},
-    {"question":"Which volcano in Indonesia caused the loudest sound in history?", "answer": "Krakatoa"},
-    {"question":"What organ is the largest in the human body?", "answer":"Skin"},
-},
+        {
+            "question": "What country is the only country with a triangular flag?",
+            "answer": "Nepal",
+        },
+        {
+            "question": "What is the 6th element in the periodic table?",
+            "answer": "Nitrogen",
+        },
+        {
+            "question": 'Which planet is known as the "Blue Planet"?',
+            "answer": "Earth",
+        },
+        {"question": "What do you call baby kangaroos?", "answer": "Joey"},
+        {
+            "question": 'What year did the "y2k" problem occur?',
+            "answer": "2000",
+        },
+        {
+            "question": "What language did the ancient Romans speak?",
+            "answer": "Latin",
+        },
+        {
+            "question": "Which volcano in Indonesia caused the loudest sound in history?",
+            "answer": "Krakatoa",
+        },
+        {
+            "question": "What organ is the largest in the human body?",
+            "answer": "Skin",
+        },
+    },
     "Hard": {
-    {"question":'In the film "Dead Poets Society"(1989), who played "Neil Perry?"', 
-    "answer":"Robert Sean Leonard"},
-    {"question":"What is the only parrot that cannot fly?", "answer":"Kakapo"},
-    {"question":"Which Asian country fought in 7 deadliests wars in history?", "answer":"China"},
-    {"question":"How many hearts does an octopus have?", "answer":"3"},
-    {"question":"Which country is the only one that has the bible on their flag?", "answer":"Dominician Republic"},
-    {"question":'Which greek philosopher famously said, "Man is the measure of all things?', "answer":"Protogoras"},
-    {"question":"What shark species was the largest to have ever lived?", "answer": "Megalodon"},
-    {"question":'What character did Eliza Taylor play in the TV series, "The 100"?', "answer":"Clarke Griffins"}
-},
+        {
+            "question": 'In the film "Dead Poets Society"(1989), who played "Neil Perry?"',
+            "answer": "Robert Sean Leonard",
+        },
+        {
+            "question": "What is the only parrot that cannot fly?",
+            "answer": "Kakapo",
+        },
+        {
+            "question": "Which Asian country fought in 7 deadliests wars in history?",
+            "answer": "China",
+        },
+        {"question": "How many hearts does an octopus have?", "answer": "3"},
+        {
+            "question": "Which country is the only one that has the bible on their flag?",
+            "answer": "Dominician Republic",
+        },
+        {
+            "question": 'Which greek philosopher famously said, "Man is the measure of all things?',
+            "answer": "Protogoras",
+        },
+        {
+            "question": "What shark species was the largest to have ever lived?",
+            "answer": "Megalodon",
+        },
+        {
+            "question": 'What character did Eliza Taylor play in the TV series, "The 100"?',
+            "answer": "Clarke Griffins",
+        },
+    },
 }
-# Score counter and number of guesses for the user. 
-diamond_count: int = 0
-guesses = []
-question_number: int = 0 
 
 # Trivia Quiz game menu.
 print("""
@@ -151,13 +216,13 @@ while valid_option is False:
                     print(question)
                     hard_guess = input("Enter your guess/answer here: ").upper()
                     guesses.append(hard_guess)
-
             else:
                 print("Invalid choice. Please try again.")
             valid_option = True
             # Function prints shop menu.
         elif user_choice == 2:
             print(shop())
+            print(f"You have {diamond_count}💎")
             valid_option = True
         # Function prints how to play instructions.
         elif user_choice == 3:
