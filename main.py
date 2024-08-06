@@ -165,7 +165,7 @@ TRIVIA_QUESTIONS = {
             "question": 'What character did Eliza Taylor play in the TV series, "The 100"?',
             "answer": "Clarke Griffins",
         },
-    }
+    },
 }
 
 # Trivia Quiz game menu.
