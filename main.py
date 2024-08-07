@@ -190,7 +190,7 @@ while valid_option is False:
             difficulty_choice = str(input("Enter level difficulty: "))
             if difficulty_choice.upper() == "E":
                 # Prints easy questions individually for user to answer.
-                for question, answer in TRIVIA_QUESTIONS["Easy"].values():
+                for question in TRIVIA_QUESTIONS["Easy"]:
                         print("☆-----------------------☆")
                         print(question)
                         question_number += 1
@@ -198,6 +198,11 @@ while valid_option is False:
                         guesses.append(easy_guess)
                         # If answer is correct, user earns 10 diamonds.
                         # If answer is incorrect, answer is returned to user.
+                for question in TRIVIA_QUESTIONS["Medium"]:
+                        print("☆-----------------------☆")
+                        print(question)
+                        question_number += 1
+                        
                         if easy_guess == answer:
                                 print("✅ Correct! You earnt 10💎!")
                                 diamond_count += 10
