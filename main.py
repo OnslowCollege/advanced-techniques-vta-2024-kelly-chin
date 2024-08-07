@@ -38,7 +38,7 @@ def difficulty_page() -> str:
 
     return ("""
 
-                    Quiz Difficulty:
+                    » Quiz Difficulty «
         
         » Easy 😊 (E) «          » Medium 😐 (M) «
 
