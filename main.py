@@ -69,40 +69,25 @@ SHOP_ITEMS: dict[str, dict[str, int | int]] = {
 # Dictionary of trivia questions, including easy, medium and hard difficulty.
 TRIVIA_QUESTIONS = {
     "Easy": {
-        {
-            "question": "What country is the largest in the world?",
-        },
-        {
-            "question": "Which sport uses the terms, Spare and Strike?",
-            "answer": "Bowling",
-        },
-        {
-            "question": "What is the 4th letter in the English alphabet?",
-            "answer": "D",
-        },
-        {
-            "question": "What country did french fries originate?",
-            "answer": "Belgium",
-        },
+        {"question": "What country is the largest in the world?",
+        "answer": "Russia"},
+        {"question": "Which sport uses the terms, Spare and Strike?",
+        "answer": "Bowling"},
+        {"question": "What is the 4th letter in the English alphabet?",
+        "answer": "D"},
+        {"question": "What country did french fries originate?",
+        "answer": "Belgium"},
         {"question": "Which galaxy do we live in?", "answer": "The Milky Way"},
-        {
-            "question": "What element do humans need to survive?",
-            "answer": "Oxygen",
-        },
-        {
-            "question": 'What does fast food chain, "KFC" stand for?',
-            "answer": "Kentucky Fried Chicken",
-        },
-        {
-            "question": "What is the name of the Greek Goddess of Love and Beauty?",
-            "answer": "Aphrodite",
-        },
-        {
-            "question": "What animal is the fastest in the world?",
-            "answer": "Cheetah",
-        },
+        {"question": "What element do humans need to survive?",
+        "answer": "Oxygen"},
+        {"question": 'What does fast food chain, "KFC" stand for?',
+        "answer": "Kentucky Fried Chicken"},
+        {"question": "What is the name of the Greek Goddess of Love and Beauty?",
+        "answer": "Aphrodite"},
+        {"question": "What animal is the fastest in the world?",
+        "answer": "Cheetah"},
         {"question": "Who discovered gravity?", "answer": "Isaac Newton"},
-    },
+            },
     "Medium": {
         1:{
             "question": "What country is the only country with a triangular flag?",
