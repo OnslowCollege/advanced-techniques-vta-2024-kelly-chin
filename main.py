@@ -191,7 +191,7 @@ while valid_option is False:
             if difficulty_choice.upper() == "E":
                 # Prints easy questions individually for user to answer.
                 for k, v in TRIVIA_QUESTIONS["Easy"].values():
-                    for lol, lol2 in k.values():
+                    for lol, lol2 in k.get(key):
                         print("☆-----------------------☆")
                         print(lol)
                         question_number += 1
