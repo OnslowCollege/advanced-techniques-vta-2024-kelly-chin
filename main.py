@@ -168,7 +168,7 @@ TRIVIA_QUESTIONS = {
 }
 
 TRIVIA_QUESTION_ANSWERS = {
-    "Easy": {"answer": ""}
+    "Easy": {"answer": "Russia"}
 }
 
 # Trivia Quiz game menu.
