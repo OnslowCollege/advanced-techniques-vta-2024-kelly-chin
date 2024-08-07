@@ -190,9 +190,9 @@ while valid_option is False:
             difficulty_choice = str(input("Enter level difficulty: "))
             if difficulty_choice.upper() == "E":
                 # Prints easy questions individually for user to answer.
-                for question in TRIVIA_QUESTIONS["Easy"]:
+                for k, v in TRIVIA_QUESTIONS["Easy"].values():
                     print("☆-----------------------☆")
-                    print(question)
+                    print(k, v)
                     question_number += 1
                     easy_guess = input("Enter your guess/answer here: ").upper()
                     guesses.append(easy_guess)
