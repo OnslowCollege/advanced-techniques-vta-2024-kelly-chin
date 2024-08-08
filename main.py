@@ -172,8 +172,12 @@ TRIVIA_QUESTIONS = {
 }
 
 TRIVIA_QUESTION_ANSWERS = {
-    "Easy": {"answer": "Russia"}
-}
+    "Easy": {
+        "answer": "Russia"
+        "answer": "Bowling"
+        }
+    "Medium": {}
+    }
 
 # Trivia Quiz game menu.
 print("""
