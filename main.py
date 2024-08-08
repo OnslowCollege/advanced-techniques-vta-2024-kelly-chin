@@ -196,7 +196,7 @@ while valid_option is False:
                 # Prints easy questions individually for user to answer.
                 for question in TRIVIA_QUESTIONS["Easy"]:
                         print("☆-----------------------☆")
-                        print(question)
+                        print(1)
                         question_number += 1
                         easy_guess = input("Enter your guess/answer here: ").upper()
                         guesses.append(easy_guess)
