@@ -71,9 +71,8 @@ TRIVIA_QUESTIONS = {
     "Easy": {
         "question":{"What country is the largest in the world?"
             "answer": "Russia"},
-        {
-            "question": "Which sport uses the terms, Spare and Strike?",
-            "answer": "Bowling"
+        {"Which sport uses the terms, Spare and Strike?"
+            "answer": "Bowling"},
         },
         3:{
             "question": "What is the 4th letter in the English alphabet?",
