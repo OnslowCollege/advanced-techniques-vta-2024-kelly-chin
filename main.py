@@ -69,40 +69,40 @@ SHOP_ITEMS: dict[str, dict[str, int | int]] = {
 # Dictionary of trivia questions, including easy, medium and hard difficulty.
 TRIVIA_QUESTIONS = {
     "Easy": {
-        1:{
+        {
             "question": "What country is the largest in the world?",
             "answer": "Russia"
         },
-        2:{
+        {
             "question": "Which sport uses the terms, Spare and Strike?",
             "answer": "Bowling"
         },
-        3:{
+        {
             "question": "What is the 4th letter in the English alphabet?",
             "answer": "D"
         },
-        4:{
+        {
             "question": "What country did french fries originate?",
             "answer": "Belgium"
         },
-        5:{"question": "Which galaxy do we live in?", "answer": "The Milky Way"},
-        6:{
+        {"question": "Which galaxy do we live in?", "answer": "The Milky Way"},
+        {
             "question": "What element do humans need to survive?",
             "answer": "Oxygen"
         },
-        7:{
+        {
             "question": 'What does fast food chain, "KFC" stand for?',
             "answer": "Kentucky Fried Chicken"
         },
-        8:{
+        {
             "question": "What is the name of the Greek Goddess of Love and Beauty?",
             "answer": "Aphrodite"
         },
-        9:{
+        {
             "question": "What animal is the fastest in the world?",
             "answer": "Cheetah"
         },
-        10:{"question": "Who discovered gravity?", "answer": "Isaac Newton"},
+        {"question": "Who discovered gravity?", "answer": "Isaac Newton"},
     },
     "Medium": {
         1: {
