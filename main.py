@@ -128,7 +128,7 @@ TRIVIA_QUESTIONS = {
         },
         7: {
             "question": "Which volcano in Indonesia caused the loudest sound in history?",
-            "answer": "Krakatoa"
+            "answer": "Mount Krakatoa"
         },
         8: {
             "question": "What organ is the largest in the human body?",
