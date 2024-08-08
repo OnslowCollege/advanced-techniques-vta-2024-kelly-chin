@@ -69,9 +69,13 @@ SHOP_ITEMS: dict[str, dict[str, int | int]] = {
 # Dictionary of trivia questions, including easy, medium and hard difficulty.
 TRIVIA_QUESTIONS = {
     "Easy": {
-        "question 1":{"What country is the largest in the world?"
-            "answer": "Russia"},
-        {"Which sport uses the terms, Spare and Strike?" "answer": "Bowling"},
+        1:{
+            "question": "What country is the largest in the world?",
+            "answer": "Russia"
+        },
+        2:{
+            "question": "Which sport uses the terms, Spare and Strike?",
+            "answer": "Bowling"
         },
         3:{
             "question": "What is the 4th letter in the English alphabet?",
@@ -192,7 +196,7 @@ while valid_option is False:
                 # Prints easy questions individually for user to answer.
                 for question in TRIVIA_QUESTIONS["Easy"]:
                         print("☆-----------------------☆")
-                        print(1)
+                        print(question)
                         question_number += 1
                         easy_guess = input("Enter your guess/answer here: ").upper()
                         guesses.append(easy_guess)
