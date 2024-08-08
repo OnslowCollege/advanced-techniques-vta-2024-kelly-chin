@@ -69,10 +69,9 @@ SHOP_ITEMS: dict[str, dict[str, int | int]] = {
 # Dictionary of trivia questions, including easy, medium and hard difficulty.
 TRIVIA_QUESTIONS = {
     "Easy": {
-        "question":{"What country is the largest in the world?"
+        "question 1":{"What country is the largest in the world?"
             "answer": "Russia"},
-        {"Which sport uses the terms, Spare and Strike?"
-            "answer": "Bowling"},
+        {"Which sport uses the terms, Spare and Strike?" "answer": "Bowling"},
         },
         3:{
             "question": "What is the 4th letter in the English alphabet?",
