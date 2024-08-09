@@ -195,7 +195,7 @@ while valid_option is False:
             while valid_option is False:
                 try:
                     if difficulty_choice.upper() == "E":
-                    # Prints easy questions individually for user to answer.
+                    # Prints easy questions individually.
                         for question in TRIVIA_QUESTIONS["Easy"]:
                             print("☆-----------------------☆")
                         print(question)
