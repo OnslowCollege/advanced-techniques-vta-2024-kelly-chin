@@ -191,6 +191,7 @@ while valid_option is False:
         user_choice = int(input("\nEnter the number of your choice: "))
         if user_choice == 1:
             print(difficulty_page())
+            
             difficulty_choice = str(input("Enter level difficulty: "))
             while valid_option is False:
                 try:
@@ -228,8 +229,8 @@ while valid_option is False:
                     elif difficulty_choice.upper() == "H":
                     # Prints hard trivia questions out individually.  
                     for question in TRIVIA_QUESTIONS["Hard"]:
-                    print("☆-----------------------☆")
-                    print(question)
+                        print("☆-----------------------☆")
+                        print(question)
                     hard_guess = input("Enter your guess/answer here: ").upper()
                     guesses.append(hard_guess)
                     # If answer is correct, user earns 10 diamonds.
@@ -244,7 +245,7 @@ while valid_option is False:
                         print("Invalid option. Please try again.")
                 except ValueError:
                         print("Invalid option. Please try again.")
-                valid_option = True
+
             
             # Function prints shop menu.
         elif user_choice == 2:
