@@ -210,9 +210,9 @@ while valid_option is False:
                                 diamond_count += 10
                         else:
                             print(f"❌ Incorrect! The answer is {answer}!")
-                    # Prints medium trivia questions individually.
                     elif difficulty_choice.upper() == "M":
-                    for question in TRIVIA_QUESTIONS["Medium"]:
+                    # Prints medium questions individually for user to answer.
+                        for question in TRIVIA_QUESTIONS["Medium"]:
                             print("☆-----------------------☆")
                             print(question)
                     medium_guess = input("Enter your guess/answer here: ").upper()
