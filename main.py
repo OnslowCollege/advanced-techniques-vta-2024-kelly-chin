@@ -231,7 +231,7 @@ while valid_option is False:
                     for question in TRIVIA_QUESTIONS["Hard"]:
                         print("☆-----------------------☆")
                         print(question)
-                        hard_guess = input("Enter your guess/answer here: ").upper()
+                    hard_guess = input("Enter your guess/answer here: ").upper()
                     guesses.append(hard_guess)
                     # If answer is correct, user earns 10 diamonds.
                     # If answer is incorrect, answer is returned to user.
