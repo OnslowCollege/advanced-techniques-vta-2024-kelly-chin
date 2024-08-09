@@ -188,6 +188,7 @@ print("""
 # Valid option remains True until user enters invalid choice. 
 while valid_option is False:
     try:
+        # User is asked for difficulty choice if they chose to play game.
         user_choice = int(input("\nEnter the number of your choice: "))
         if user_choice == 1:
             print(difficulty_page())
@@ -246,7 +247,7 @@ while valid_option is False:
                 except ValueError:
                         print("Invalid option. Please try again.")
 
-            
+
             # Function prints shop menu.
         elif user_choice == 2:
             print(shop())
