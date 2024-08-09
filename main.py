@@ -191,7 +191,7 @@ while valid_option is False:
         user_choice = int(input("\nEnter the number of your choice: "))
         if user_choice == 1:
             print(difficulty_page())
-            difficulty_choice = str(input("Enter level difficulty: "))
+            difficulty_choice = str(input("\nEnter level difficulty: "))
             while valid_option is False:
                 try:
                     if difficulty_choice.upper() == "E":
