@@ -228,8 +228,8 @@ while valid_option is False:
                     elif difficulty_choice.upper() == "H":
                     # Prints hard trivia questions out individually.  
                     for question in TRIVIA_QUESTIONS["Hard"]:
-                    print("☆-----------------------☆")
-                    print(question)
+                        print("☆-----------------------☆")
+                        print(question)
                     hard_guess = input("Enter your guess/answer here: ").upper()
                     guesses.append(hard_guess)
                     # If answer is correct, user earns 10 diamonds.
