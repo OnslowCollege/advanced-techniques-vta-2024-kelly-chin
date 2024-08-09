@@ -191,11 +191,11 @@ while valid_option is False:
         user_choice = int(input("\nEnter the number of your choice: "))
         if user_choice == 1:
             print(difficulty_page())
-            difficulty_choice = str(input("\nEnter level difficulty: "))
+            difficulty_choice = str(input("Enter level difficulty: "))
             while valid_option is False:
                 try:
                     if difficulty_choice.upper() == "E":
-                    # Prints easy questions individually.
+                    # Prints easy questions individually for user to answer.
                         for question in TRIVIA_QUESTIONS["Easy"]:
                             print("☆-----------------------☆")
                         print(question)
@@ -226,18 +226,18 @@ while valid_option is False:
                         else:
                             print(f"❌ Incorrect! The answer is {answer}!")
                     elif difficulty_choice.upper() == "H":
-                    # Prints hard questions out individually.  
-                        for question in TRIVIA_QUESTIONS["Hard"]:
-                            print("☆-----------------------☆")
-                            print(question)
+                    # Prints hard trivia questions out individually.  
+                    for question in TRIVIA_QUESTIONS["Hard"]:
+                    print("☆-----------------------☆")
+                    print(question)
                     hard_guess = input("Enter your guess/answer here: ").upper()
                     guesses.append(hard_guess)
                     # If answer is correct, user earns 10 diamonds.
                     # If answer is incorrect, answer is returned to user.
                     for answer in TRIVIA_QUESTIONS.values():
                         if hard_guess == answer:
-                            print("✅ Correct! You earnt 10💎!")
-                            diamond_count += 10
+                                print("✅ Correct! You earnt 10💎!")
+                                diamond_count += 10
                         else:
                             print(f"❌ Incorrect! The answer is {answer}!")
                     else:
@@ -245,6 +245,7 @@ while valid_option is False:
                 except ValueError:
                         print("Invalid option. Please try again.")
                 valid_option = True
+            
             # Function prints shop menu.
         elif user_choice == 2:
             print(shop())
