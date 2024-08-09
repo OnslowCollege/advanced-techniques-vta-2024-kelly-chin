@@ -211,25 +211,29 @@ while valid_option is False:
                         else:
                             print(f"❌ Incorrect! The answer is {answer}!")
                     elif difficulty_choice.upper() == "M":
-                    # Prints medium questions individually for user to answer.
+                    # Prints medium questions out individually.
                         for question in TRIVIA_QUESTIONS["Medium"]:
                             print("☆-----------------------☆")
                             print(question)
                     medium_guess = input("Enter your guess/answer here: ").upper()
                     guesses.append(medium_guess)
+                    # If answer is correct, user earns 10 diamonds.
+                    # If answer is incorrect, answer is returned to user.
                     for answer in TRIVIA_QUESTIONS.values():
                         if medium_guess == answer:
                             print("✅ Correct! You earnt 10💎!")
                             diamond_count += 10
                         else:
-                            print(f"❌ Incorrect! The answer is {"answer"}!")
-                # Prints hard trivia questions individually. 
+                            print(f"❌ Incorrect! The answer is {answer}!")
                     elif difficulty_choice.upper() == "H":
+                    # Prints hard trivia questions out individually.  
                     for question in TRIVIA_QUESTIONS["Hard"]:
-                        print("☆-----------------------☆")
-                        print(question)
+                    print("☆-----------------------☆")
+                    print(question)
                     hard_guess = input("Enter your guess/answer here: ").upper()
                     guesses.append(hard_guess)
+                    # If answer is correct, user earns 10 diamonds.
+                    # If answer is incorrect, answer is returned to user.
                     for answer in TRIVIA_QUESTIONS.values():
                         if hard_guess == answer:
                                 print("✅ Correct! You earnt 10💎!")
