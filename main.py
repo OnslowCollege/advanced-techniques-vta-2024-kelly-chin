@@ -236,8 +236,8 @@ while valid_option is False:
                     # If answer is incorrect, answer is returned to user.
                     for answer in TRIVIA_QUESTIONS.values():
                         if hard_guess == answer:
-                                print("✅ Correct! You earnt 10💎!")
-                                diamond_count += 10
+                            print("✅ Correct! You earnt 10💎!")
+                            diamond_count += 10
                         else:
                             print(f"❌ Incorrect! The answer is {answer}!")
                     else:
