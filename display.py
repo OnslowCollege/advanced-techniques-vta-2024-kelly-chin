@@ -1,5 +1,5 @@
 """Testing."""
-name = "John"
+name = input("Enter name: ")
 greeting = f"Hello, {name}"
 print(greeting)
 
