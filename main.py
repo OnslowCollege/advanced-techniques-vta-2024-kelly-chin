@@ -194,58 +194,53 @@ while valid_option is False:
             print(difficulty_page())
             
             difficulty_choice = str(input("Enter level difficulty: "))
-            while valid_option is False:
-                try:
-                    if difficulty_choice.upper() == "E":
-                    # Prints easy questions individually for user to answer.
-                        for question in TRIVIA_QUESTIONS["Easy"]:
-                            print("☆-----------------------☆")
-                        print(question)
-                        question_number += 1
-                        easy_guess = input("Enter your guess/answer here: ").upper()
-                        guesses.append(easy_guess)
-                        # If answer is correct, user earns 10 diamonds.
-                        # If answer is incorrect, answer is returned to user.
-                        for answer in TRIVIA_QUESTIONS.values():
-                            if easy_guess == answer:
-                                print("✅ Correct! You earnt 10💎!")
-                                diamond_count += 10
-                        else:
-                            print(f"❌ Incorrect! The answer is {answer}!")
-                    elif difficulty_choice.upper() == "M":
-                    # Prints medium questions out individually.
-                        for question in TRIVIA_QUESTIONS["Medium"]:
-                            print("☆-----------------------☆")
-                            print(question)
-                    medium_guess = input("Enter your guess/answer here: ").upper()
-                    guesses.append(medium_guess)
-                    # If answer is correct, user earns 10 diamonds.
-                    # If answer is incorrect, answer is returned to user.
-                    for answer in TRIVIA_QUESTIONS.values():
-                        if medium_guess == answer:
-                            print("✅ Correct! You earnt 10💎!")
-                            diamond_count += 10
-                        else:
-                            print(f"❌ Incorrect! The answer is {answer}!")
-                    elif difficulty_choice.upper() == "H":
-                    # Prints hard trivia questions out individually.  
-                    for question in TRIVIA_QUESTIONS["Hard"]:
-                        print("☆-----------------------☆")
-                        print(question)
-                    hard_guess = input("Enter your guess/answer here: ").upper()
-                    guesses.append(hard_guess)
-                    # If answer is correct, user earns 10 diamonds.
-                    # If answer is incorrect, answer is returned to user.
-                    for answer in TRIVIA_QUESTIONS.values():
-                        if hard_guess == answer:
-                                print("✅ Correct! You earnt 10💎!")
-                                diamond_count += 10
-                        else:
-                            print(f"❌ Incorrect! The answer is {answer}!")
-                    else:
-                        print("Invalid option. Please try again.")
-                except ValueError:
-                        print("Invalid option. Please try again.")
+            if difficulty_choice.upper() == "E":
+            # Prints easy questions individually for user to answer.
+                for question in TRIVIA_QUESTIONS["Easy"]:
+                    print("☆-----------------------☆")
+                    print(question)
+                    question_number += 1
+            easy_guess = input("Enter your guess/answer here: ").upper()
+            guesses.append(easy_guess)
+            # If answer is correct, user earns 10 diamonds.
+            for answer in TRIVIA_QUESTIONS.values():
+                if easy_guess == answer:
+                    print("✅ Correct! You earnt 10💎!")
+                diamond_count += 10
+                # If answer is incorrect, answer is returned to user.
+            else:
+                print(f"❌ Incorrect! The answer is {answer}!")
+            
+            elif difficulty_choice.upper() == "M":
+            # Prints medium questions out individually.
+            for question in TRIVIA_QUESTIONS["Medium"]:
+                print("☆-----------------------☆")
+                print(question)
+            medium_guess = input("Enter your guess/answer here: ").upper()
+            guesses.append(medium_guess)
+            # If answer is correct, user earns 10 diamonds.
+            # If answer is incorrect, answer is returned to user.
+            for answer in TRIVIA_QUESTIONS.values():
+                if medium_guess == answer:
+                    print("✅ Correct! You earnt 10💎!")
+                    diamond_count += 10
+                else:
+                    print(f"❌ Incorrect! The answer is {answer}!")
+            elif difficulty_choice.upper() == "H":
+            # Prints hard trivia questions out individually.  
+            for question in TRIVIA_QUESTIONS["Hard"]:
+                print("☆-----------------------☆")
+                print(question)
+            hard_guess = input("Enter your guess/answer here: ").upper()
+            guesses.append(hard_guess)
+            # If answer is correct, user earns 10 diamonds.
+            # If answer is incorrect, answer is returned to user.
+            for answer in TRIVIA_QUESTIONS.values():
+                if hard_guess == answer:
+                    print("✅ Correct! You earnt 10💎!")
+                    diamond_count += 10
+                else:
+                    print(f"❌ Incorrect! The answer is {answer}!")
 
             # Function prints shop menu.
         elif user_choice == 2:
