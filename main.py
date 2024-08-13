@@ -211,7 +211,7 @@ while valid_option is False:
             else:
                 print(f"❌ Incorrect! The answer is {answer}!")
             
-            elif difficulty_choice.upper() == "M":
+        elif difficulty_choice.upper() == "M":
             # Prints medium questions out individually.
             for question in TRIVIA_QUESTIONS["Medium"]:
                 print("☆-----------------------☆")
