@@ -226,7 +226,7 @@ while valid_option is False:
                     diamond_count += 10
                 else:
                     print(f"❌ Incorrect! The answer is {answer}!")
-            elif difficulty_choice.upper() == "H":
+        elif difficulty_choice.upper() == "H":
             # Prints hard trivia questions out individually.  
             for question in TRIVIA_QUESTIONS["Hard"]:
                 print("☆-----------------------☆")
