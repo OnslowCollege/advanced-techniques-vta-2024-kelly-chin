@@ -68,7 +68,7 @@ SHOP_ITEMS: dict[str, dict[str, int | int]] = {
 
 # Dictionary of trivia questions, including easy, medium and hard difficulty.
 TRIVIA_QUESTIONS = {
-    "Easy": {
+    "Easy": [
         1:{
             "question": "What country is the largest in the world?",
             "answer": "Russia"
@@ -103,8 +103,8 @@ TRIVIA_QUESTIONS = {
             "answer": "Cheetah"
         },
         10:{"question": "Who discovered gravity?", "answer": "Isaac Newton"},
-    },
-    "Medium": {
+    ],
+    "Medium": [
         1: {
             "question": "What country is the only country with a triangular flag?",
             "answer": "Nepal"
@@ -134,8 +134,8 @@ TRIVIA_QUESTIONS = {
             "question": "What organ is the largest in the human body?",
             "answer": "Skin"
         },
-    },
-    "Hard": {
+    ],
+    "Hard": [
         1: {
             "question": 'In the film "Dead Poets Society"(1989), who played "Neil Perry?"',
             "answer": "Robert Sean Leonard"
@@ -168,7 +168,7 @@ TRIVIA_QUESTIONS = {
             "question": 'What character did Eliza Taylor play in the TV series, "The 100"?',
             "answer": "Clarke Griffins"
         },
-    },
+    ],
 }
 
 
