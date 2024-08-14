@@ -1,5 +1,5 @@
 """
-Trivia Quiz game || Project Management.
+Trivia Quiz game || Project Management
 
 Created by: Kelly
 Date: 6/06/2024
