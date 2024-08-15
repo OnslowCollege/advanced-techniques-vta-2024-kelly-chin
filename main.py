@@ -243,7 +243,7 @@ while valid_option is False:
                         print("Invalid option. Please try again.")
                 except ValueError:
                         print("Invalid option. Please try again.")
-
+                        
             # Function prints shop menu.
         elif user_choice == 2:
             print(shop())
