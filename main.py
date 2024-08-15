@@ -218,24 +218,24 @@ while valid_option is False:
                             print("☆-----------------------☆")
                             print(question)
                             guesses.append(medium_guess)
-                    medium_guess = input("Enter your guess/answer here: ").upper()
-                    # If answer is correct, user earns 10 diamonds.
-                    # If answer is incorrect, answer is returned to user.
-                    for answer in TRIVIA_QUESTIONS.values():
-                        if medium_guess == answer:
-                            print("✅ Correct! You earnt 10💎!")
+                        medium_guess = input("Enter your guess/answer here: ").upper()
+                        # If answer is correct, user earns 10 diamonds.
+                        # If answer is incorrect, answer is returned to user.
+                        for answer in TRIVIA_QUESTIONS.values():
+                            if medium_guess == answer:
+                                print("✅ Correct! You earnt 10💎!")
                             diamond_count += 10
                         else:
                             print(f"❌ Incorrect! The answer is {answer}!")
                     elif difficulty_choice.upper() == "H":
                     # Prints hard trivia questions out individually.  
-                    for question in TRIVIA_QUESTIONS["Hard"]:
-                        print("☆-----------------------☆")
-                        print(question)
-                        guesses.append(hard_guess)
-                    hard_guess = input("Enter your guess/answer here: ").upper()
-                    # If answer is correct, user earns 10 diamonds.
-                    # If answer is incorrect, answer is returned to user.
+                        for question in TRIVIA_QUESTIONS["Hard"]:
+                            print("☆-----------------------☆")
+                            print(question)
+                            guesses.append(hard_guess)
+                        hard_guess = input("Enter your guess/answer here: ").upper()
+                        # If answer is correct, user earns 10 diamonds.
+                        # If answer is incorrect, answer is returned to user.
                     for answer in TRIVIA_QUESTIONS.values():
                         if hard_guess == answer:
                                 print("✅ Correct! You earnt 10💎!")
