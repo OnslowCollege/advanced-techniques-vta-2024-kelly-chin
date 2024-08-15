@@ -201,8 +201,8 @@ while valid_option is False:
                     # Prints easy questions individually for user to answer.
                         for question in TRIVIA_QUESTIONS["Easy"]:
                             print(question)
-                        question_number += 1
-                        easy_guess = input("Enter your guess/answer here: ").upper()
+                            question_number += 1
+                            easy_guess = input("Enter your guess/answer here: ").upper()
                         # If answer is correct, user earns 10 diamonds.
                         # If answer is incorrect, answer is returned to user.
                         for answer in TRIVIA_QUESTIONS.values():
