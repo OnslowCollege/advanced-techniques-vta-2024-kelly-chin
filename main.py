@@ -1,8 +1,9 @@
 """
-Trivia Quiz game || Project Management
+Trivia Quiz game || Project Management.
 
 Created by: Kelly
 Date: 6/06/2024
+
 """
 
 # Function prints shop items.
@@ -55,7 +56,6 @@ program_running: bool = True
 
 # Score counter and number of guesses for the user.
 diamond_count: int = 0
-guesses = []
 question_number: int = 0
 
 # Stores shop items from a dictionary.
@@ -202,7 +202,6 @@ while valid_option is False:
                             print("☆-----------------------☆")
                         print(question)
                         question_number += 1
-                        guesses.append(easy_guess)
                         easy_guess = input("Enter your guess/answer here: ").upper()
                         # If answer is correct, user earns 10 diamonds.
                         # If answer is incorrect, answer is returned to user.
@@ -217,7 +216,6 @@ while valid_option is False:
                         for question in TRIVIA_QUESTIONS["Medium"]:
                             print("☆-----------------------☆")
                             print(question)
-                            guesses.append(medium_guess)
                         medium_guess = input("Enter your guess/answer here: ").upper()
                         # If answer is correct, user earns 10 diamonds.
                         # If answer is incorrect, answer is returned to user.
@@ -232,7 +230,6 @@ while valid_option is False:
                         for question in TRIVIA_QUESTIONS["Hard"]:
                             print("☆-----------------------☆")
                             print(question)
-                            guesses.append(hard_guess)
                         hard_guess = input("Enter your guess/answer here: ").upper()
                         # If answer is correct, user earns 10 diamonds.
                         # If answer is incorrect, answer is returned to user.
