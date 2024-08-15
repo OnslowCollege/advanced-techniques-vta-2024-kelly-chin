@@ -197,10 +197,10 @@ while valid_option is False:
             while valid_option is False:
                 try:
                     if difficulty_choice.upper() == "E":
+                        print("☆-----------------------☆")
                     # Prints easy questions individually for user to answer.
                         for question in TRIVIA_QUESTIONS["Easy"]:
-                            print("☆-----------------------☆")
-                        print(question)
+                            print(question)
                         question_number += 1
                         easy_guess = input("Enter your guess/answer here: ").upper()
                         # If answer is correct, user earns 10 diamonds.
