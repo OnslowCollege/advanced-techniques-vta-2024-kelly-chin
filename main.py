@@ -209,7 +209,7 @@ while valid_option is False:
                                 print("✅ Correct! You earnt 10💎!")
                                 diamond_count += 10
                         else:
-                            print(f"❌ Incorrect! The answer is {answer}!")
+                            print("❌ Incorrect! The answer is R!")
                     elif difficulty_choice.upper() == "M":
                     # Prints medium questions out individually.
                         for question in TRIVIA_QUESTIONS["Medium"]:
@@ -218,12 +218,11 @@ while valid_option is False:
                         medium_guess = input("Enter your guess/answer here: ").upper()
                         # If answer is correct, user earns 10 diamonds.
                         # If answer is incorrect, answer is returned to user.
-                        for answer in TRIVIA_QUESTIONS.values():
-                            if medium_guess == answer:
-                                print("✅ Correct! You earnt 10💎!")
+                        if medium_guess == TRIVIA_QUESTIONS["answer"]:
+                            print("✅ Correct! You earnt 10💎!")
                             diamond_count += 10
                         else:
-                            print(f"❌ Incorrect! The answer is {answer}!")
+                            print("❌ Incorrect! The answer is S!")
                     elif difficulty_choice.upper() == "H":
                     # Prints hard trivia questions out individually.  
                         for question in TRIVIA_QUESTIONS["Hard"]:
@@ -232,12 +231,11 @@ while valid_option is False:
                         hard_guess = input("Enter your guess/answer here: ").upper()
                         # If answer is correct, user earns 10 diamonds.
                         # If answer is incorrect, answer is returned to user.
-                    for answer in TRIVIA_QUESTIONS.values():
-                        if hard_guess == answer:
+                        if hard_guess == TRIVIA_QUESTIONS["answer"]:
                                 print("✅ Correct! You earnt 10💎!")
                                 diamond_count += 10
                         else:
-                            print(f"❌ Incorrect! The answer is {answer}!")
+                            print("❌ Incorrect! The answer is L!")
                     else:
                         print("Invalid option. Please try again.")
                 except ValueError:
