@@ -205,7 +205,7 @@ while valid_option is False:
                             easy_guess = input("Enter your guess/answer here: ").upper()
                         # If answer is correct, user earns 10 diamonds.
                         # If answer is incorrect, answer is returned to user.
-                            if easy_guess == TRIVIA_QUESTIONS[]:
+                            if easy_guess == TRIVIA_QUESTIONS["answer"]:
                                 print("✅ Correct! You earnt 10💎!")
                                 diamond_count += 10
                         else:
