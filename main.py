@@ -192,7 +192,7 @@ while valid_option is False:
         user_choice = int(input("\nEnter the number of your choice: "))
         if user_choice == 1:
             print(difficulty_page())
-            
+
             difficulty_choice = str(input("Enter level difficulty: "))
             while valid_option is False:
                 try:
@@ -211,7 +211,7 @@ while valid_option is False:
                         else:
                             print("❌ Incorrect! The answer is R!")
                     elif difficulty_choice.upper() == "M":
-                    # Prints medium questions out individually.
+                        # Prints medium questions out individually.
                         for question in TRIVIA_QUESTIONS["Medium"]:
                             print("☆-----------------------☆")
                             print(question)
@@ -224,7 +224,7 @@ while valid_option is False:
                         else:
                             print("❌ Incorrect! The answer is S!")
                     elif difficulty_choice.upper() == "H":
-                    # Prints hard trivia questions out individually.  
+                        # Prints hard trivia questions out individually.  
                         for question in TRIVIA_QUESTIONS["Hard"]:
                             print("☆-----------------------☆")
                             print(question)
